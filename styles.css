@@ -241,15 +241,26 @@ h3 {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 18px;
 }
 
 .service-grid article {
-  min-height: 210px;
+  min-height: 230px;
   padding: 22px;
   background: #fff;
   border: 1px solid var(--line);
+}
+
+.service-grid article:first-child {
+  color: #fff;
+  background: var(--red-dark);
+  border-color: var(--red-dark);
+}
+
+.service-grid article:first-child h3,
+.service-grid article:first-child p {
+  color: #fff;
 }
 
 .service-grid p {
@@ -293,6 +304,37 @@ h3 {
 .firm-section figure {
   max-width: 720px;
   margin: 0;
+}
+
+.enterprise-section {
+  background: #fff;
+}
+
+.enterprise-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.75fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.scenario-list {
+  display: grid;
+  gap: 10px;
+  padding: 24px;
+  background: var(--warm);
+  border: 1px solid var(--line);
+}
+
+.scenario-list span {
+  display: block;
+  padding: 11px 0;
+  color: var(--red-dark);
+  font-weight: 700;
+  border-bottom: 1px solid var(--line);
+}
+
+.scenario-list span:last-child {
+  border-bottom: 0;
 }
 
 .firm-section img {
@@ -517,6 +559,10 @@ footer p {
 
   .service-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .enterprise-layout {
+    grid-template-columns: 1fr;
   }
 
   .contact-layout {
