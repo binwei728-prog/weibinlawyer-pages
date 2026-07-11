@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>企业风险事项初步梳理器｜卫斌律师</title>
+  <meta name="description" content="帮助企业在联系律师前梳理争议类型、主体、程序阶段、金额、证据、资金流和处理目标。本工具不判断案件结果。">
+  <meta name="robots" content="index,follow"><meta name="author" content="卫斌律师">
+  <link rel="canonical" href="https://weibinlawyer.com/tools/enterprise-risk-intake.html"><link rel="stylesheet" href="../styles.css">
+  <style>
+    .intake { max-width:860px; }
+    .intake-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .field { display:flex; flex-direction:column; gap:7px; }
+    .field.full { grid-column:1/-1; }
+    .field label { font-weight:700; color:#283746; }
+    .field input,.field select,.field textarea { width:100%; box-sizing:border-box; border:1px solid #c9c2bc; background:#fff; padding:12px; font:inherit; color:#20262d; border-radius:4px; }
+    .field textarea { min-height:110px; resize:vertical; }
+    .privacy-note { border-left:4px solid #8b1e2d; padding:14px 18px; background:#f8f5f3; }
+    .result { white-space:pre-wrap; background:#f4f6f8; border:1px solid #d9dee3; padding:20px; margin-top:22px; display:none; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:20px; }
+    @media(max-width:720px){.intake-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.intake h1{font-size:36px;line-height:1.22}}
+  </style>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark">卫</span><span class="brand-text">卫斌律师</span></a><nav><a href="../index.html#services">业务方向</a><a href="../index.html#articles">文章</a><a href="../index.html#contact">联系</a></nav></header>
+<main>
+  <section class="section intake"><div class="section-heading"><p class="eyebrow">Enterprise Risk Intake</p><h1>企业风险事项初步梳理器</h1></div>
+    <div class="prose"><p>本工具用于帮助企业在首次沟通前整理信息，不提供自动法律结论，也不判断罪名、立案、胜诉率或案件结果。</p></div>
+    <div class="privacy-note"><strong>信息安全提示：</strong>本页在您的浏览器本地整理文字，不自动上传或保存。请勿填写真实身份证号、银行卡号、商业秘密、完整客户名单或未公开案卷内容。</div>
+    <form id="riskForm" class="intake-grid" onsubmit="return buildSummary(event)">
+      <div class="field"><label for="type">事项类型</label><select id="type"><option>刑事辩护或企业负责人涉刑</option><option>企业内部舞弊或刑事控告</option><option>重大商事争议</option><option>金融投资纠纷</option><option>公司治理或股东争议</option><option>其他刑民交叉事项</option></select></div>
+      <div class="field"><label for="stage">当前阶段</label><select id="stage"><option>刚发现风险，尚未采取措施</option><option>内部调查或协商中</option><option>准备诉讼、仲裁或报案</option><option>已经立案或进入司法程序</option><option>判决、执行或后续处置阶段</option></select></div>
+      <div class="field"><label for="parties">主要主体</label><input id="parties" placeholder="例如：公司、股东、员工、供应商、投资人"></div>
+      <div class="field"><label for="amount">金额或影响范围</label><input id="amount" placeholder="可填写区间，不必填写精确金额"></div>
+      <div class="field full"><label for="timeline">核心时间线</label><textarea id="timeline" placeholder="只写关键节点：签约、付款、交付、发现异常、对方回应、已采取措施"></textarea></div>
+      <div class="field full"><label for="evidence">现有材料</label><textarea id="evidence" placeholder="例如：合同、流水、聊天记录、审批、发票、交付、法律文书"></textarea></div>
+      <div class="field"><label for="urgent">最紧迫的问题</label><input id="urgent" placeholder="例如：人员被调查、证据可能灭失、资产转移"></div>
+      <div class="field"><label for="goal">希望实现的目标</label><input id="goal" placeholder="例如：控制风险、追回损失、保全资产、形成辩护意见"></div>
+      <div class="field full actions"><button class="button primary" type="submit">生成沟通提要</button><button class="button secondary" type="reset" onclick="clearResult()">清空</button><a class="button secondary" href="../index.html#contact">查看联系方式</a></div>
+    </form>
+    <div id="result" class="result" aria-live="polite"></div>
+  </section>
+</main>
+<footer><p>© 2026 卫斌律师。本工具仅用于信息整理，不构成个案法律意见。</p></footer>
+<script>
+function v(id){return document.getElementById(id).value.trim()||'待补充';}
+function buildSummary(e){e.preventDefault();var text='【企业风险事项沟通提要】\n\n事项类型：'+v('type')+'\n当前阶段：'+v('stage')+'\n主要主体：'+v('parties')+'\n金额或影响范围：'+v('amount')+'\n\n核心时间线：\n'+v('timeline')+'\n\n现有材料：\n'+v('evidence')+'\n\n最紧迫的问题：'+v('urgent')+'\n希望实现的目标：'+v('goal')+'\n\n提示：正式判断仍需结合原始材料、证据和程序阶段。';var box=document.getElementById('result');box.textContent=text;box.style.display='block';box.scrollIntoView({behavior:'smooth',block:'center'});return false;}
+function clearResult(){var box=document.getElementById('result');box.textContent='';box.style.display='none';}
+</script>
+</body></html>
