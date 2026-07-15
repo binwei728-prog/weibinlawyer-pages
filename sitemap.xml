@@ -12,6 +12,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url><loc>https://weibinlawyer.com/practices.html</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://weibinlawyer.com/articles/</loc><lastmod>2026-07-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://weibinlawyer.com/research-publications.html</loc><lastmod>2026-07-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html</loc><lastmod>2026-07-14</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://weibinlawyer.com/articles/shenzhen-detention-lawyer-meeting-materials.html</loc><lastmod>2026-07-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -85,6 +88,30 @@
   </url>
   <url>
     <loc>https://weibinlawyer.com/articles/cross-border-occupational-embezzlement-criminal-complaint-filing.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weibinlawyer.com/articles/loan-fraud-defense-review.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weibinlawyer.com/articles/private-fund-redemption-civil-criminal-path.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weibinlawyer.com/articles/company-executive-criminal-detention-seven-actions.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weibinlawyer.com/articles/major-commercial-dispute-prelitigation-loss-control.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

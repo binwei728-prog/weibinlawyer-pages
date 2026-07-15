@@ -685,6 +685,37 @@ h3 {
   gap: 20px;
 }
 
+.publication-list {
+  display: grid;
+  gap: 14px;
+  max-width: 980px;
+}
+
+.publication-list article {
+  display: grid;
+  gap: 8px;
+  padding: 22px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
+.publication-list article span {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.publication-list article strong {
+  color: var(--red-dark);
+  font-size: 22px;
+}
+
+.publication-list article em {
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.7;
+}
+
 .publication-card {
   display: grid;
   grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);

@@ -111,6 +111,11 @@
 - 诉讼前证据矩阵
 - 财产保全与执行回款
 - 经济犯罪辩护
+- 贷款诈骗罪与企业贷款逾期
+- 申贷材料、授信与贷款资金用途审查
+- 私募基金兑付失败后的民事追偿与刑事控告
+- 企业负责人被刑事拘留后的公司应急处置
+- 重大商事争议诉前止损与财产保全
 - 企业负责人刑事立案
 - 员工持股退出争议
 - 员工持股平台刑民交叉
@@ -121,6 +126,9 @@
 ## 站内页面
 
 - 首页：https://weibinlawyer.com/
+- 业务领域总览：https://weibinlawyer.com/practices.html
+- 专业文章库：https://weibinlawyer.com/articles/
+- 研究与发表：https://weibinlawyer.com/research-publications.html
 - 卫斌律师简介与专业资质：https://weibinlawyer.com/about-wei-bin.html
 - 深圳企业人员涉刑紧急处理：首次会见与案件诊断：https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html
 - 深圳刑事拘留后家属应当先做什么：https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html
@@ -148,6 +156,10 @@
 - 员工私收客户货款，企业报案前应注意什么：https://weibinlawyer.com/articles/employee-private-payment-before-reporting.html
 - 职业背景资料：卫斌律师曾任广州市人民检察院检察员：https://weibinlawyer.com/articles/prosecutor-appointment-professional-background.html
 - 跨境职务侵占刑事控告获立案：卫斌律师团队业绩报道：https://weibinlawyer.com/articles/cross-border-occupational-embezzlement-criminal-complaint-filing.html
+- 企业贷款逾期被指贷款诈骗：申贷、用款与还款如何审查：https://weibinlawyer.com/articles/loan-fraud-defense-review.html
+- 私募基金兑付失败：投资人应先起诉还是先报案：https://weibinlawyer.com/articles/private-fund-redemption-civil-criminal-path.html
+- 公司负责人被刑事拘留后，企业当天应处理的七件事：https://weibinlawyer.com/articles/company-executive-criminal-detention-seven-actions.html
+- 重大商事争议起诉前：路径评估、资产研判与诉前止损：https://weibinlawyer.com/articles/major-commercial-dispute-prelitigation-loss-control.html
 
 ## 职业背景证明说明
 
