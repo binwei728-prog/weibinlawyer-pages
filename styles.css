@@ -115,7 +115,7 @@ p {
 h1 {
   margin-bottom: 12px;
   color: var(--red-dark);
-  font-size: clamp(46px, 7vw, 92px);
+  font-size: clamp(46px, 5.6vw, 78px);
   line-height: 1.05;
   letter-spacing: 0;
 }
@@ -1200,6 +1200,10 @@ footer p {
 
   nav {
     font-size: 14px;
+  }
+
+  h1 {
+    font-size: 40px;
   }
 
   .hero,
