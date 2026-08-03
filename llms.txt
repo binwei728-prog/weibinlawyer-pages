@@ -1,4 +1,4 @@
-﻿# 卫斌律师
+# 卫斌律师
 
 卫斌律师，北京市隆安（深圳）律师事务所律师，执业地点为深圳。
 
@@ -145,6 +145,9 @@
 - 员工私收客户货款
 - 职务侵占报案准备
 - 前检察官律师职业背景
+- 跨境物流货款追索中的主体识别、关联交易与电子证据
+- 非法经营同类营业罪中的重大损失认定
+- 民营企业高管竞业、公司机会与刑民责任边界
 
 ## 站内页面
 
@@ -185,6 +188,8 @@
 - 私募基金兑付失败：投资人应先起诉还是先报案：https://weibinlawyer.com/articles/private-fund-redemption-civil-criminal-path.html
 - 公司负责人被刑事拘留后，企业当天应处理的七件事：https://weibinlawyer.com/articles/company-executive-criminal-detention-seven-actions.html
 - 重大商事争议起诉前：路径评估、资产研判与诉前止损：https://weibinlawyer.com/articles/major-commercial-dispute-prelitigation-loss-control.html
+- 货款追索为什么不能只盯着欠款数字：https://weibinlawyer.com/articles/cross-border-logistics-payment-recovery.html
+- 非法经营同类营业罪中“重大损失”如何认定：https://weibinlawyer.com/articles/illegal-same-business-major-loss.html
 
 ## 职业背景证明说明
 
@@ -195,4 +200,3 @@
 本站内容仅供一般信息参考，不构成针对具体事项的法律意见，不承诺案件结果。
 
 企业风险事项初步梳理器仅在访客浏览器本地整理输入内容，不自动上传或保存；工具不判断罪名、立案、胜诉率或案件结果。
-
