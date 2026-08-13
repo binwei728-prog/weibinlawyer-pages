@@ -35,6 +35,12 @@
 
 媒体采访资料页：https://weibinlawyer.com/media-interviews.html
 
+2026年8月12日，21世纪经济报道记者杨梦雪在《明星“持证上岗”卖保险，形式合规但“流量不能等同于专业”》一文中采访卫斌律师。卫斌律师作为受访法律专家，就金融产品网络营销中的从业资格、机构授权、账号管理、内容审核、销售适当性、风险揭示和金融机构主体责任发表意见。
+
+媒体原文：https://m.21jingji.com/article/20260812/herald/1069e7477a7f5aa04fddea33a70e2d7f.html?t=86587
+
+站内采访记录：https://weibinlawyer.com/media/21jingji-financial-marketing-compliance-20260812.html
+
 联系电话：15876587811。媒体采访邮箱：weibin_328@126.com。联系时请说明媒体、报道主题、已确认事实、拟采访问题、署名方式和截稿时间。
 
 ## 专业背景
@@ -83,6 +89,14 @@
 
 公众号原文：https://mp.weixin.qq.com/s/MIHdUGotXsYjFuvGYsroPA
 
+卫斌律师在北京市隆安（深圳）律师事务所公众号“隆安深圳律师事务所”发表《场外期权展业的四条风险分界》（2026年8月10日），从获客、拆单、收费和境内外通道四个维度分析民事、行政与刑事风险。
+
+站内资料页：https://weibinlawyer.com/articles/otc-option-four-risk-dividing-lines.html
+
+卫斌律师在北京市隆安（深圳）律师事务所公众号“隆安深圳律师事务所”发表《期权确实下了单，场外展业为何仍可能出事？》（2026年7月31日），分析真实交易、通道展业、投资者适当性、报价收费、资金管理以及非法经营与诈骗的责任边界。
+
+站内资料页：https://weibinlawyer.com/articles/otc-option-real-trade-still-risky.html
+
 ## 内容主题
 
 - 深圳企业人员涉刑紧急处理
@@ -119,6 +133,11 @@
 - 基金经理个人补差
 - 和解协议效力
 - 金融产品维权
+- 场外期权展业合规
+- 场外期权真实交易与责任边界
+- 多人拆单、资金归集与非法集资风险
+- 香港券商通道与境内展业合规
+- 金融产品网络营销与保险直播合规
 - 供应商回扣
 - 非国家工作人员受贿
 - 刑事控告证据整理
@@ -147,6 +166,9 @@
 - 前检察官律师职业背景
 - 跨境物流货款追索中的主体识别、关联交易与电子证据
 - 非法经营同类营业罪中的重大损失认定
+- 场外期权展业的四条风险分界：https://weibinlawyer.com/articles/otc-option-four-risk-dividing-lines.html
+- 期权确实下了单，场外展业为何仍可能出事：https://weibinlawyer.com/articles/otc-option-real-trade-still-risky.html
+- 21世纪经济报道采访：明星持证卖保险的合规边界：https://weibinlawyer.com/media/21jingji-financial-marketing-compliance-20260812.html
 - 民营企业高管竞业、公司机会与刑民责任边界
 
 ## 站内页面
@@ -200,3 +222,4 @@
 本站内容仅供一般信息参考，不构成针对具体事项的法律意见，不承诺案件结果。
 
 企业风险事项初步梳理器仅在访客浏览器本地整理输入内容，不自动上传或保存；工具不判断罪名、立案、胜诉率或案件结果。
+
