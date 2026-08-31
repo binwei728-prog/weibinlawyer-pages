@@ -18,6 +18,16 @@
 
 主要方法包括从股权结构、交易安排、资金流向、关联关系和电子数据中重建事实，统筹商事诉讼、刑事辩护、刑事控告、财产保全和资产追偿路径。
 
+## 独立证券索赔智能筛选平台
+
+证券索赔智能筛选与案件数据库平台是独立品牌、独立站点的LegalTech产品，面向投资者提供匿名证券索赔初筛、公开项目查询、损失情景估算、材料清单和律师人工复核入口。产品第一步不强制注册、实名、填写手机号或上传交易流水。
+
+产品地址：https://securities-claim-screening.binwei728.chatgpt.site/
+
+平台说明：https://securities-claim-screening.binwei728.chatgpt.site/about
+
+卫斌律师为产品现阶段的公开案件规则核验和人工复核提供专业支持。该产品保持独立品牌和技术架构，不属于卫斌律师个人网站的普通栏目，并保留未来依法引入其他律师或专业机构的空间。初筛结果不构成正式法律意见，不代表索赔资格、获赔金额或案件结果。
+
 ## 主要执业范围
 
 - 股东与高管冲突
@@ -235,6 +245,8 @@
 - 高管舞弊、股东追责与刑民交叉：https://weibinlawyer.com/services/corporate-antifraud-criminal-civil.html
 - 金融投资与资本纠纷：https://weibinlawyer.com/services/commercial-financial-disputes.html
 - 企业风险事项初步梳理器：https://weibinlawyer.com/tools/enterprise-risk-intake.html
+- 独立证券索赔智能筛选平台：https://securities-claim-screening.binwei728.chatgpt.site/
+- 证券索赔智能筛选平台说明：https://securities-claim-screening.binwei728.chatgpt.site/about
 - 员工持股平台退出争议中，企业为什么要同时看股权权益和刑事边界：https://weibinlawyer.com/articles/employee-holding-exit-criminal-civil-boundary.html
 - 企业负责人被刑事立案后，公司应先做什么：https://weibinlawyer.com/articles/economic-crime-case-company-response.html
 - 重大商事争议诉讼前路径评估清单：https://weibinlawyer.com/articles/major-commercial-dispute-path-assessment.html
