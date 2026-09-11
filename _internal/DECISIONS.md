@@ -63,3 +63,16 @@
 - 影响范围：`udrp/index.html`、`services/udrp-*.html`、`services/ai-domain-disputes.html`、`llms.txt`。
 - 复审条件：ICANN 发布新版 UDRP 政策或程序规则时重新核对。
 - 依据：用户长期有效的法条引用核对规则；本轮已实测核验 Policy 4(a)/4(c)/4(i)/4(k) 与 Rules 第 1、4(f)、5(a)(b)(d)(e)(f)、15(e) 条。
+
+## D8 — 内部文件一律置于 `_internal/`，根目录不再存放非发布文件
+- 状态：[Confirmed]
+- 日期：2026-09-11
+- 决策：项目记忆四件套、上线运维文档、运维与构建脚本统一放入仓库 `_internal/` 目录；根目录 `AGENTS.md` 降级为指针桩，并以 YAML front matter `published: false` 排除发布；`robots.txt` 增加 `Disallow: /_internal/`、`/AGENTS.md`、`/*.md$` 作为第二层。
+- 备选方案与否决理由：
+  1. 迁出仓库到仓库外的 `weibinlawyer-pages-internal/`：会切断 Codex 与 WorkBuddy 共用的仓库交接面，而两个工具都跑在同一台机器上，没有同步收益 → 否。
+  2. 只靠 `robots.txt` 阻止抓取：robots 仅约束合规爬虫的索引行为，任何人仍可直接访问 URL，不构成隐私保护 → 否（现仅作第二层）。
+  3. 新增 `.nojekyll` 试图自定义排除：效果相反，会关闭 Jekyll 构建，使下划线目录同样被发布 → 明确禁止。
+- 理由：仓库根目录即 GitHub Pages 发布源，根目录下任何文件都会对外公网可读；Jekyll 对下划线前缀目录的默认忽略是零配置、零依赖且已线上实证的排除机制。根目录 `AGENTS.md` 必须保留以维持 Codex 自动加载入口，故单独用 front matter 排除。
+- 影响范围：仓库根目录结构、`AGENTS.md`、`robots.txt`、`_internal/` 全部内容、跨对话记忆读取路径与 `PROJECT_CONTEXT.md` 的文件路由表。
+- 复审条件：仓库改用 GitHub Actions 发布、或新增 `.nojekyll` 时必须重新评估（后者会使 `_internal/` 立即公开）。
+- 依据：2026-09-11 线上实测发现 12 个内部文件公网 200；迁移后实测全部 404 且站点主体全部 200。
