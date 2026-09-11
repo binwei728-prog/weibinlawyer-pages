@@ -1,6 +1,7 @@
 ﻿User-agent: *
 Allow: /
+Disallow: /_internal/
+Disallow: /AGENTS.md
+Disallow: /*.md$
 
 Sitemap: https://weibinlawyer.com/sitemap.xml
-
-
