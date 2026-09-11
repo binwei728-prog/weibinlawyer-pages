@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UDRP首轮信息整理器｜域名争议咨询前准备｜卫斌律师</title>
+  <meta name="description" content="域名争议咨询前的首轮信息整理工具：列出争议域名、管理机构、是否收到正式通知、通知载明的截止时间与一种联系方式，在浏览器本地生成沟通提要，不上传、不保存、不自动发送。">
+  <meta name="robots" content="index,follow"><meta name="author" content="卫斌律师">
+  <link rel="canonical" href="https://weibinlawyer.com/tools/udrp-intake.html">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .intake { max-width:860px; }
+    .intake-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .field { display:flex; flex-direction:column; gap:7px; }
+    .field.full { grid-column:1/-1; }
+    .field label { font-weight:700; color:#283746; }
+    .field input,.field select,.field textarea { width:100%; box-sizing:border-box; border:1px solid #c9c2bc; background:#fff; padding:12px; font:inherit; color:#20262d; border-radius:4px; }
+    .field textarea { min-height:110px; resize:vertical; }
+    .privacy-note { border-left:4px solid #8b1e2d; padding:14px 18px; background:#f8f5f3; }
+    .result { white-space:pre-wrap; background:#f4f6f8; border:1px solid #d9dee3; padding:20px; margin-top:22px; display:none; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:20px; }
+    .copied-tip { color:#8b1e2d; font-weight:700; display:none; margin-top:10px; }
+    @media(max-width:720px){.intake-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.intake h1{font-size:32px;line-height:1.24}}
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": "https://weibinlawyer.com/tools/udrp-intake.html#application",
+  "url": "https://weibinlawyer.com/tools/udrp-intake.html",
+  "name": "UDRP首轮信息整理器",
+  "description": "在联系律师前整理域名争议的首轮信息：争议域名、管理机构、通知状态、通知载明的截止时间与联系方式。本工具不上传、不保存、不自动发送，也不判断案件结果。",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web browser",
+  "isAccessibleForFree": true,
+  "inLanguage": "zh-CN",
+  "creator": { "@id": "https://weibinlawyer.com/#wei-bin" },
+  "isPartOf": { "@id": "https://weibinlawyer.com/#website" }
+}
+  </script>
+</head>
+<body>
+<header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark">卫</span><span class="brand-text">卫斌律师</span></a><nav><a href="../practices.html">业务领域</a><a href="../services/udrp-domain-name-disputes.html">UDRP 域名争议</a><a href="../index.html#contact">联系</a></nav></header>
+<main>
+  <section class="section intake">
+    <div class="section-heading"><p class="eyebrow">UDRP First-Step Intake</p><h1>UDRP 首轮信息整理器</h1></div>
+    <div class="prose">
+      <p>用于在首次联系前把关键信息整理清楚。本工具<strong>不判断案件结果、不计算期限、不提供自动法律结论</strong>，也不替代对正式通知的核对。</p>
+      <p>期限一律以收到的正式通知、机构补充规则与案件页面记载为准；如果通知上的日期与这里填写的不一致，以通知为准。</p>
+    </div>
+    <div class="privacy-note"><strong>信息安全提示：</strong>本页在您的浏览器本地整理文字，<strong>不上传、不保存、不自动发送</strong>。首轮沟通无需提交完整案卷、身份证件或商业秘密；涉及未公开信息时，可先概述再决定材料范围。</div>
+
+    <form id="udrpForm" class="intake-grid" onsubmit="return buildSummary(event)">
+      <div class="field"><label for="need">需求类型</label><select id="need"><option>我收到投诉，需要应对</option><option>我希望追回品牌域名</option></select></div>
+      <div class="field"><label for="domain">争议域名</label><input id="domain" placeholder="例如：example.ai（只写域名本身）"></div>
+      <div class="field"><label for="parties">涉及主体</label><input id="parties" placeholder="可只写简称，例如：某科技公司，或填写“不清楚”"></div>
+      <div class="field"><label for="provider">管理机构</label><select id="provider"><option>尚未收到正式通知</option><option>WIPO</option><option>CAC</option><option>ADNDRC</option><option>FORUM</option><option>其他机构</option><option>不清楚</option></select></div>
+      <div class="field"><label for="notice">是否收到正式程序通知</label><select id="notice"><option>是</option><option>否，只收到对方律师函</option><option>不确定</option></select></div>
+      <div class="field"><label for="deadline">通知载明的截止时间</label><input id="deadline" placeholder="按通知填写；不清楚可填“不清楚”"></div>
+      <div class="field full"><label for="issue">最紧迫的问题</label><input id="issue" placeholder="例如：材料不全、期限临近、不确定是否要答辩"></div>
+      <div class="field full"><label for="note">补充说明（可选）</label><textarea id="note" placeholder="只写必要概述，不要粘贴未公开案卷内容"></textarea></div>
+      <div class="field"><label for="contactType">联系方式类型</label><select id="contactType"><option>邮箱</option><option>电话</option></select></div>
+      <div class="field"><label for="contact">联系方式</label><input id="contact" placeholder="填写您的邮箱或电话，由您决定是否发送"></div>
+      <div class="field full actions">
+        <button class="button primary" type="submit">生成沟通提要</button>
+        <button class="button secondary" type="reset" onclick="clearResult()">清空</button>
+        <a class="button secondary" href="../services/udrp-domain-name-disputes.html">查看服务说明</a>
+      </div>
+    </form>
+
+    <div id="result" class="result" aria-live="polite"></div>
+    <div class="actions" id="resultActions" style="display:none;">
+      <button class="button secondary" type="button" onclick="copySummary()">复制提要</button>
+      <a class="button primary" id="mailLink" href="mailto:weibin_328@126.com?subject=UDRP%20%E9%A6%96%E8%BD%AE%E4%BF%A1%E6%81%AF">用邮件发送给卫斌律师</a>
+      <a class="button secondary" href="tel:+8615876587811">电话：15876587811</a>
+    </div>
+    <p class="copied-tip" id="copiedTip">已复制到剪贴板。如未复制成功，可手动选中上方文字复制。</p>
+    <div class="prose" style="margin-top:22px;">
+      <p class="publication-note">本页不会自动把内容发送给任何人。点击"用邮件发送"只是打开你本机的邮件客户端，发送与否由你决定；点击咨询不等于建立委托关系，是否接受委托需经利益冲突检查与正式委托手续确定。</p>
+    </div>
+  </section>
+</main>
+<footer><p>© 2026 卫斌律师。本工具仅用于信息整理，不构成个案法律意见。</p></footer>
+<script src="../assets/track.js?v=20260911"></script>
+<script>
+function v(id){var el=document.getElementById(id);return el.value.trim()||'待补充';}
+function buildSummary(e){
+  e.preventDefault();
+  var text='【UDRP 首轮信息提要】\n\n'
+    +'需求类型：'+v('need')+'\n'
+    +'争议域名：'+v('domain')+'\n'
+    +'涉及主体：'+v('parties')+'\n'
+    +'管理机构：'+v('provider')+'\n'
+    +'是否收到正式程序通知：'+v('notice')+'\n'
+    +'通知载明的截止时间：'+v('deadline')+'\n'
+    +'最紧迫的问题：'+v('issue')+'\n\n'
+    +'补充说明：\n'+v('note')+'\n\n'
+    +'联系方式（'+v('contactType')+'）：'+v('contact')+'\n\n'
+    +'提示：实际期限与提交要求以正式通知、机构补充规则和案件页面记载为准；本提要不构成法律意见。';
+  var box=document.getElementById('result');
+  box.textContent=text;
+  box.style.display='block';
+  document.getElementById('resultActions').style.display='flex';
+  document.getElementById('mailLink').setAttribute('href','mailto:weibin_328@126.com?subject='+encodeURIComponent('UDRP 首轮信息')+'&body='+encodeURIComponent(text));
+  document.getElementById('copiedTip').style.display='none';
+  wlTrack('udrp_intake_generated', { need: document.getElementById('need').value.indexOf('收到投诉')>-1?'respondent':'brandowner', page: 'udrp-intake' });
+  box.scrollIntoView({behavior:'smooth',block:'center'});
+  return false;
+}
+function clearResult(){
+  var box=document.getElementById('result');
+  box.textContent='';box.style.display='none';
+  document.getElementById('resultActions').style.display='none';
+  document.getElementById('copiedTip').style.display='none';
+}
+function copySummary(){
+  var text=document.getElementById('result').textContent;
+  var tip=document.getElementById('copiedTip');
+  function ok(){tip.style.display='block';}
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(ok, function(){fallback(text,ok);});
+  } else { fallback(text, ok); }
+}
+function fallback(text, ok){
+  try{
+    var ta=document.createElement('textarea');
+    ta.value=text;ta.style.position='fixed';ta.style.left='-9999px';
+    document.body.appendChild(ta);ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    ok();
+  }catch(err){ /* 保留手动复制方式 */ }
+}
+document.getElementById('mailLink').addEventListener('click', function(){
+  wlTrack('udrp_intake_mail', { page: 'udrp-intake' });
+});
+wlTrack('udrp_page_view', { page: 'udrp-intake' });
+</script>
+</body>
+</html>
