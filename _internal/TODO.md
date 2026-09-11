@@ -4,9 +4,13 @@
 
 ## P0
 - [ ] 复核 `_internal/` 迁移效果：原 12 个公网可读的内部文件应全部 404，同时 `/`、`/udrp/`、`/practices.html`、`/sitemap.xml`、`/media-interviews.html`、`tools/` 两个表单页仍 200。（提交 `ac61bfe` 之后执行）
-- [ ] 在真实手机 viewport（360px、390px）人工复核首页 UDRP 专项区块、媒体证据链与支柱页机构对比表。
+- [x] 手机端（320/360/390/414/480）与桌面端显示效果复核：无头浏览器多断点实测，首页横向零溢出，按区块截图目视通过。如需真机仍可抽查。（2026-09-11）
 
 ## P1
+- [ ] （建议，待用户确认）为 `articles/*.html` 统一补 `Article` + `BreadcrumbList`：现 36 篇中仅 13 篇含 `Article`、0 篇含 `BreadcrumbList`，`articles/index.html` 无 JSON-LD。
+- [ ] （建议，待用户确认）统一 `#wei-bin` Person 节点属性：`knowsAbout` 跨页为 14/8/7/9/6 项、`image` 部分缺失、`worksFor` 写法不一。
+- [ ] （建议，待用户确认）定位并补齐 canonical／viewport（各缺 2 页）与 og:title（缺 17 页）。
+- [ ] （建议，待用户确认）把 `sitemap.xml` 首页条目 `lastmod` 由 `2026-08-30` 更新为实际更新日期。
 - [ ] 观察支柱页与 UDRP 服务页的关键词分工：支柱页面向信息检索（UDRP 是什么／三要件／答辩期限），服务页面向商业检索（UDRP 律师／投诉应对），避免自我竞争。
 - [ ] 检查首页外链 `claim.weibinlawyer.com` 的正式可访问性 — 若未上线，避免长期保留无效转化入口。
 - [ ] 清理另一会话遗留的未使用首页样式类（`.udrp-feature`、`.udrp-feature-copy`、`.udrp-tags`、`.udrp-proof`、`.credibility-section`、`.credibility-grid`、`.proof-label`、`.udrp-lead`）。
@@ -18,6 +22,7 @@
 - [ ] 用户四项待表态：是否接入统计服务、是否公开费用区间、是否公开执业证号、媒体联系页是否并列律所邮箱。
 
 ## 近期完成
+- [x] 首页精准优化一轮（仅 `index.html`）：UDRP 模块文案定稿与第 4 关键词改「品牌域名保护」、CTA2 指向支柱页 `#series`、媒体正文由第一财经领起、新增压缩版「专业研究与公共表达」、证券索赔压缩为单句 + 单一 CTA、新增 UDRP `Service` 结构化数据节点。已改未提交，待授权。
 - [x] 修复内部文件公网可读问题：12 个内部文件迁入 `_internal/`，线上实测全部 404，站点主体全部 200（提交 `ac61bfe`）。
 - [x] 新建 `/udrp/` 支柱页并接入全站导航与内链集群。
 - [x] 首页完成定位强化与结构收敛（方法论句、UDRP 专项、可核验事实、律师介绍、证券索赔降级）。
