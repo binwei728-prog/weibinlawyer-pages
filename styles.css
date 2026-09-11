@@ -386,6 +386,114 @@ h3 {
   font-size: 16px;
 }
 
+.hero-method {
+  max-width: 800px;
+  padding-left: 16px;
+  border-left: 3px solid var(--red-dark);
+  color: var(--red-dark);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.udrp-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+  gap: 42px;
+  align-items: center;
+  color: #fff;
+  background: var(--red-dark);
+}
+
+.udrp-feature h2,
+.udrp-feature .eyebrow,
+.udrp-feature .text-link {
+  color: #fff;
+}
+
+.udrp-lead {
+  max-width: 820px;
+  color: rgba(255,255,255,.88);
+  font-size: 18px;
+}
+
+.udrp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.udrp-tags span {
+  padding: 8px 12px;
+  border: 1px solid rgba(255,255,255,.42);
+  color: #fff;
+  font-size: 14px;
+}
+
+.udrp-feature .button.primary {
+  color: var(--red-dark);
+  background: #fff;
+  border-color: #fff;
+}
+
+.udrp-feature .button.secondary {
+  color: #fff;
+  border-color: rgba(255,255,255,.65);
+}
+
+.udrp-proof {
+  padding: 26px;
+  border: 1px solid rgba(255,255,255,.34);
+  background: rgba(255,255,255,.08);
+}
+
+.udrp-proof strong {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 23px;
+  line-height: 1.4;
+}
+
+.udrp-proof p {
+  color: rgba(255,255,255,.82);
+}
+
+.proof-label {
+  margin-top: 0;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.credibility-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  margin-bottom: 22px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.credibility-grid article {
+  min-height: 190px;
+  padding: 22px;
+  background: #fff;
+}
+
+.credibility-grid strong {
+  color: var(--red-dark);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.credibility-grid p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
 .article-list {
   display: grid;
   gap: 14px;
@@ -1149,10 +1257,13 @@ footer p {
 
   .service-grid,
   .experience-grid,
+  .credibility-grid,
   .method-steps,
   .topic-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .udrp-feature { grid-template-columns: 1fr; }
 
   .conversion-panel,
   .related-links { grid-template-columns: 1fr; }
@@ -1234,6 +1345,7 @@ footer p {
 
   .service-grid,
   .experience-grid,
+  .credibility-grid,
   .method-steps,
   .topic-grid,
   .media-tag-grid,
@@ -1270,6 +1382,10 @@ footer p {
   .experience-grid article {
     min-height: auto;
   }
+
+  .credibility-grid article { min-height: auto; }
+
+  .udrp-feature .hero-actions { align-items: stretch; }
 
   .credential-list div {
     grid-template-columns: 1fr;
