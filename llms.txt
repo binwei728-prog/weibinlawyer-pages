@@ -51,6 +51,12 @@
 
 站内采访记录：https://weibinlawyer.com/media/yicai-ai-domain-dispute-20260903.html
 
+2026年9月10日，第一财经记者林春挺在《用电企业上法庭追讨售电返利，售电公司否认合同有效》一文中采访卫斌律师。报道围绕广东电力市场中“场内交易、场外返利”模式引发的售电返利纠纷案展开。卫斌律师作为受访律师指出：该案值得关注的不只是个案返利款是否应当支付，而是法院可能为该模式划出一条司法边界；若以场外返利实质规避电力交易规则、违反强制性规定或公序良俗为由认定约定无效，意味着此类交易已超出市场主体自主定价与利益安排的合法边界，也将促使行业对补充协议、承诺函、线上沟通等形式形成的场外返利约定重新开展合规核查；反之若认定有效，则说明在不违反强制性规定与公序良俗的前提下，司法尊重交易主体真实合意，场外协议不会仅因未在官方交易平台备案即被认定无效，即“场外”不等于“法外”；个案协议无效不等同于全行业所有场外返利协议一概失效，最终影响取决于法院的具体裁判理由；本案核心价值在于厘清市场主体正常价格让利、利益调整与刻意规避电力交易监管的违规场外操作之间的法律界限。
+
+媒体原文：https://www.yicai.com/news/103359906.html
+
+站内采访记录：https://weibinlawyer.com/media/yicai-power-market-sales-rebate-20260910.html
+
 2026年8月12日，21世纪经济报道记者杨梦雪在《明星“持证上岗”卖保险，形式合规但“流量不能等同于专业”》一文中采访卫斌律师。卫斌律师作为受访法律专家，就金融产品网络营销中的从业资格、机构授权、账号管理、内容审核、销售适当性、风险揭示和金融机构主体责任发表意见。
 
 媒体原文：https://m.21jingji.com/article/20260812/herald/1069e7477a7f5aa04fddea33a70e2d7f.html
@@ -304,5 +310,6 @@
 - English service page（Chinese-speaking UDRP counsel）：https://weibinlawyer.com/en/udrp-counsel.html
 - UDRP 首轮信息整理器（浏览器本地整理，不上传不保存）：https://weibinlawyer.com/tools/udrp-intake.html
 - 第一财经采访（2026年9月3日，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-ai-domain-dispute-20260903.html
+- 第一财经采访（2026年9月10日，电力市场场外返利与合同效力边界，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-power-market-sales-rebate-20260910.html
 
 联系与语言：电话 15876587811；邮箱 weibin@longanlaw.com、weibin_328@126.com（两个邮箱均可联系）；微信可扫描服务页二维码添加。本项服务可接受英文来函，沟通与书面往来可使用英文；英文页面见 https://weibinlawyer.com/en/udrp-counsel.html 。
