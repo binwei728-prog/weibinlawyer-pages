@@ -1,0 +1,101 @@
+<!doctype html>
+<!--
+  UDRP 案例库列表页（结构框架）
+  ------------------------------------------------------------------
+  状态：框架已就位，尚未收录任何案例。
+  - 本页已设置 noindex，且未加入 sitemap.xml，因此不会被搜索引擎收录。
+  - 待首批案例完成官方来源核对后，再决定是否解除 noindex 并加入 sitemap。
+  - 数据模型见 _internal/udrp-cases/schema.json；录入规范见 _internal/udrp-cases/待采集清单.md。
+  - 严禁在此填充未经核对、或由推测生成的案件、案号与裁决结果。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UDRP 案例库｜卫斌律师</title>
+  <meta name="description" content="UDRP 案例库结构页：按机构、裁决结果、三项要件认定与实务专题分类整理 UDRP 裁决。所有条目均以作出裁决的机构官方公布的裁决全文为来源逐字核对。">
+  <meta name="robots" content="noindex,follow">
+  <meta name="author" content="卫斌律师">
+  <link rel="canonical" href="https://weibinlawyer.com/udrp/cases/">
+  <link rel="stylesheet" href="../../styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"CollectionPage","@id":"https://weibinlawyer.com/udrp/cases/#page","url":"https://weibinlawyer.com/udrp/cases/","name":"UDRP 案例库","inLanguage":"zh-CN","dateModified":"2026-09-12","isPartOf":{"@id":"https://weibinlawyer.com/#website"},"about":{"@id":"https://weibinlawyer.com/#udrp-service"}},
+    {"@type":"BreadcrumbList","@id":"https://weibinlawyer.com/udrp/cases/#breadcrumb","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"首页","item":"https://weibinlawyer.com/"},
+      {"@type":"ListItem","position":2,"name":"UDRP 域名争议法律服务与实务指南","item":"https://weibinlawyer.com/udrp/"},
+      {"@type":"ListItem","position":3,"name":"UDRP 案例库","item":"https://weibinlawyer.com/udrp/cases/"}
+    ]}
+  ]}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="卫斌律师首页"><span class="brand-mark">卫</span><span class="brand-text">卫斌律师</span></a>
+    <nav aria-label="主导航"><a href="../../practices.html">业务领域</a><a href="../../udrp/index.html">UDRP 专题</a><a href="../../articles/index.html">专业文章</a><a href="../../media-interviews.html">媒体采访</a><a href="../../about-wei-bin.html">关于</a><a href="#contact">联系</a></nav>
+  </header>
+  <main>
+    <section class="section article-page">
+      <nav class="breadcrumb" aria-label="面包屑"><a href="../../index.html">首页</a><span> / </span><a href="../index.html">UDRP 域名争议法律服务与实务指南</a><span> / </span><span>UDRP 案例库</span></nav>
+      <div class="section-heading">
+        <p class="eyebrow">UDRP Case Library · Structure</p>
+        <h1>UDRP 案例库</h1>
+        <p class="article-lead">本页用于按统一结构整理 UDRP 裁决，便于把规则条文与实际认定对应起来。案例数据的来源限定为作出裁决的机构官方公布的裁决全文；未完成逐字核对的条目一律不予收录。</p>
+      </div>
+      <div class="prose">
+        <p class="publication-note"><strong>本页当前为结构页，尚未收录案例。</strong>案例条目将在完成官方来源核对后分批补充。本站不转载第三方案件数据库的内容，也不依据域名后缀、当事人名称或其他间接信息推测案件事实与裁决结果。</p>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="section-heading"><p class="eyebrow">Structure</p><h2>案例条目的字段结构</h2><p>每条案例按下列字段记录。字段定义与取值规则见站内数据模型文件，此处仅列出对外呈现的部分。</p></div>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <caption>UDRP 案例条目的对外呈现字段</caption>
+          <thead><tr><th scope="col">字段</th><th scope="col">说明</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">案件编号</th><td>照录官方裁决全文首页记载的案件编号</td></tr>
+            <tr><th scope="row">机构</th><td>作出裁决的 ICANN 认可争议解决服务机构</td></tr>
+            <tr><th scope="row">裁决日期</th><td>裁决作出日</td></tr>
+            <tr><th scope="row">争议域名</th><td>逐字照录，不做改写</td></tr>
+            <tr><th scope="row">当事人</th><td>投诉人与被投诉人，照录官方记载</td></tr>
+            <tr><th scope="row">裁决结果</th><td>转移域名 / 注销域名 / 不支持投诉 / 部分支持 / 程序终止</td></tr>
+            <tr><th scope="row">三项要件认定</th><td>逐项记录该案的实际认定，未作认定的标记为未认定</td></tr>
+            <tr><th scope="row">RDNH 认定</th><td>专家组是否声明投诉属恶意提出</td></tr>
+            <tr><th scope="row">援引条款</th><td>裁决实际援引的政策与程序规则条款编号</td></tr>
+            <tr><th scope="row">实务分类</th><td>对应 <a href="../index.html#topics">枢纽页 A–J 分类</a>中的一类或多类</td></tr>
+            <tr><th scope="row">官方来源</th><td>机构官网裁决全文链接，并注明核对日期</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><p class="eyebrow">Filing Rules</p><h2>收录规则</h2></div>
+      <div class="prose">
+        <ul>
+          <li><strong>来源限定：</strong>只采用作出裁决的机构官方网站公布的裁决全文，不使用第三方转载或改写稿。</li>
+          <li><strong>逐字核对：</strong>案号、裁决日期、当事人名称、争议域名、裁决结果五项与官方文本逐字一致方可录入。</li>
+          <li><strong>不作推断：</strong>官方文本未记载的内容一律留空，不依据域名后缀、名称特征或其他间接信息推测。</li>
+          <li><strong>不作评价：</strong>条目只陈述裁决记载的事实与认定，不添加引申结论；引申性分析单独成文。</li>
+          <li><strong>可撤回：</strong>若后续发现条目的记载与官方文本不符，条目将被更正或移除。</li>
+        </ul>
+        <p>规则体系与实务路径见：<a href="../index.html">UDRP 域名争议法律服务与实务指南</a>。</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section band">
+      <div class="contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h2>联系与咨询</h2>
+          <p class="contact-lead">首次沟通建议先说明：争议域名、是否已收到正式通知、通知载明的截止时间，以及希望实现的目标。</p>
+          <p><a class="button primary" href="tel:+8615876587811">电话：15876587811</a></p>
+          <p><a class="button secondary" href="mailto:weibin@longanlaw.com?subject=UDRP%20%E5%9F%9F%E5%90%8D%E4%BA%89%E8%AE%AE%E5%92%A8%E8%AF%A2">邮件：weibin@longanlaw.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><p>© 2026 卫斌律师。北京市隆安（深圳）律师事务所。本站内容仅供一般信息参考，不构成针对具体事项的法律意见，不承诺案件结果。</p></footer>
+</body>
+</html>

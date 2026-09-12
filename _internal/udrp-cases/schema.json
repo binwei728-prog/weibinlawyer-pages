@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://weibinlawyer.com/udrp/cases/schema.json",
+  "title": "UDRP 案例条目数据模型",
+  "description": "用于 weibinlawyer.com UDRP 案例库的条目结构。本文件只定义数据结构，不含任何案件数据。所有条目必须先在官方来源核实裁决全文后方可填写并发布；未完成核实的条目不进入发布流程。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "caseNumber",
+    "provider",
+    "decisionDate",
+    "disputedDomains",
+    "complainant",
+    "respondent",
+    "result",
+    "threeElements",
+    "sourceUrl",
+    "sourceVerified",
+    "sourceVerifiedDate"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "站内唯一标识，用作 URL 片段，例如 wipo-d2026-0123。建议格式：机构简写-案号小写。"
+    },
+    "caseNumber": {
+      "type": "string",
+      "description": "机构案件编号，须与官方裁决全文首页记载一致。"
+    },
+    "provider": {
+      "type": "string",
+      "enum": ["WIPO", "FORUM", "CAC", "ADNDRC", "CIIDRC"],
+      "description": "作出裁决的 ICANN 认可争议解决服务机构。仅限该枚举值，机构名单以 ICANN 官方公布为准。"
+    },
+    "providerOffice": {
+      "type": "string",
+      "description": "机构具体办公室（如 ADNDRC 的北京 / 中国香港 / 首尔 / 吉隆坡办公室）。仅在裁决全文载明时填写。"
+    },
+    "panelType": {
+      "type": "string",
+      "enum": ["single", "three"],
+      "description": "专家组组成方式。"
+    },
+    "dissent": {
+      "type": "boolean",
+      "description": "是否存在异议意见。"
+    },
+    "commencementDate": {
+      "type": "string",
+      "format": "date",
+      "description": "行政程序开始日。仅在裁决全文载明时填写。"
+    },
+    "decisionDate": {
+      "type": "string",
+      "format": "date",
+      "description": "裁决作出日。"
+    },
+    "disputedDomains": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "争议域名列表，逐字照录，不做改写。"
+    },
+    "tlds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "涉及的顶级域，例如 com、ai、io。"
+    },
+    "complainant": {
+      "type": "string",
+      "description": "投诉人名称，照录裁决全文记载。"
+    },
+    "respondent": {
+      "type": "string",
+      "description": "被投诉人名称，照录裁决全文记载。"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "transfer",
+        "cancellation",
+        "complaint-denied",
+        "split",
+        "terminated"
+      ],
+      "description": "裁决结果：transfer 转移域名；cancellation 注销域名；complaint-denied 不支持投诉；split 部分支持；terminated 程序终止。"
+    },
+    "rdnhDeclared": {
+      "type": "boolean",
+      "description": "专家组是否在裁决中声明投诉属恶意提出、构成对行政程序的滥用。"
+    },
+    "rdnhNote": {
+      "type": "string",
+      "description": "RDNH 认定的具体理由摘要。仅在 rdnhDeclared 为 true 时填写，须以裁决原文为依据。"
+    },
+    "threeElements": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "三项要件的认定结果。枚举值含义：upheld 认定成立；failed 认定不成立；not-reached 专家组未作认定（例如前一项要件已不成立）。",
+      "required": [
+        "identicalOrConfusinglySimilar",
+        "noRightsOrLegitimateInterests",
+        "registeredAndUsedInBadFaith"
+      ],
+      "properties": {
+        "identicalOrConfusinglySimilar": {
+          "type": "string",
+          "enum": ["upheld", "failed", "not-reached"]
+        },
+        "noRightsOrLegitimateInterests": {
+          "type": "string",
+          "enum": ["upheld", "failed", "not-reached"]
+        },
+        "registeredAndUsedInBadFaith": {
+          "type": "string",
+          "enum": ["upheld", "failed", "not-reached"]
+        }
+      }
+    },
+    "policyParagraphs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "裁决中援引的《统一域名争议解决政策》条款编号，例如 4(a)、4(c)、4(i)、4(k)。"
+    },
+    "rulesParagraphs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "裁决中援引的《程序规则》条款编号，例如 4(f)、5(a)、15(e)。"
+    },
+    "keyIssues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+      },
+      "description": "对应的实务专题分类（A–J），与 udrp/ 枢纽页的分类体系一致。"
+    },
+    "summary": {
+      "type": "string",
+      "description": "案件事实与程序经过的摘要，只陈述裁决全文记载的内容，不做推断、不补充外部信息。"
+    },
+    "holding": {
+      "type": "string",
+      "description": "专家组认定的核心要点摘要，须以裁决原文表述为依据，不得改写法律结论。"
+    },
+    "chinaRelated": {
+      "type": "boolean",
+      "description": "是否属于中国主体相关案件（当事人所在地、争议域名面向中国市场、或涉及中文品牌等任一情形）。"
+    },
+    "aiDomain": {
+      "type": "boolean",
+      "description": "是否涉及 .ai 域名或人工智能行业相关域名。"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "自由标签，例如 通用词域名、数字域名、隐私保护服务、独立项目抗辩。"
+    },
+    "language": {
+      "type": "string",
+      "description": "程序语言。"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "裁决全文的官方来源链接，须为作出裁决的机构官方网站，不得使用第三方转载或数据库镜像。"
+    },
+    "sourceVerified": {
+      "type": "boolean",
+      "const": true,
+      "description": "是否已逐字核对官方裁决全文。必须以 true 才能发布。"
+    },
+    "sourceVerifiedDate": {
+      "type": "string",
+      "format": "date",
+      "description": "完成官方来源核对的日期。"
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "description": "是否进入站点发布。sourceVerified 为 false 时不得置为 true。"
+    },
+    "notes": {
+      "type": "string",
+      "description": "内部备注，不对外发布。"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<!--
+  单条 UDRP 案例页模板
+  ------------------------------------------------------------------
+  本文件位于 udrp/cases/_templates/ 目录。该目录以下划线开头，
+  Jekyll 构建时整目录排除，因此本模板不会出现在线上站点。
+
+  使用方式：
+    1. 复制本文件到 udrp/cases/<case-id>.html（去掉 _templates 一层）
+    2. 替换全部 {{...}} 占位符
+    3. 数据先按 _internal/udrp-cases/schema.json 填好，且 sourceVerified = true
+    4. 完成后运行站点校验脚本，并把新页面加入 sitemap.xml
+
+  禁止事项：
+    - 不得在未核对官方裁决全文的情况下填写任何字段
+    - 不得补充裁决未记载的事实
+    - 不得使用"胜诉""必然获赔"等结果承诺性表述
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{CASE_NUMBER}}｜{{DISPUTED_DOMAIN}}｜UDRP 案例｜卫斌律师</title>
+  <meta name="description" content="{{PROVIDER}} 案件 {{CASE_NUMBER}}：争议域名 {{DISPUTED_DOMAIN}}，{{DECISION_DATE}} 作出裁决，结果为 {{RESULT_ZH}}。本页摘要依据机构官方裁决全文整理，不构成个案法律意见。">
+  <meta name="author" content="卫斌律师">
+  <link rel="canonical" href="https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html">
+  <link rel="stylesheet" href="../../styles.css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{CASE_NUMBER}}｜{{DISPUTED_DOMAIN}}｜UDRP 案例">
+  <meta property="og:description" content="{{PROVIDER}} 案件 {{CASE_NUMBER}}，裁决日期 {{DECISION_DATE}}，结果 {{RESULT_ZH}}。">
+  <meta property="og:url" content="https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "@id":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html#page",
+        "url":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html",
+        "name":"{{CASE_NUMBER}}｜{{DISPUTED_DOMAIN}}｜UDRP 案例",
+        "inLanguage":"zh-CN",
+        "dateModified":"{{VERIFIED_DATE}}",
+        "isPartOf":{"@id":"https://weibinlawyer.com/#website"},
+        "mainEntity":{"@id":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html#case"}
+      },
+      {
+        "@type":"Article",
+        "@id":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html#case",
+        "headline":"{{CASE_NUMBER}}：{{DISPUTED_DOMAIN}} 域名争议",
+        "inLanguage":"zh-CN",
+        "datePublished":"{{PUBLISH_DATE}}",
+        "dateModified":"{{VERIFIED_DATE}}",
+        "author":{"@id":"https://weibinlawyer.com/#wei-bin"},
+        "publisher":{"@type":"Organization","name":"北京市隆安（深圳）律师事务所"},
+        "isPartOf":{"@id":"https://weibinlawyer.com/#website"}
+      },
+      {
+        "@type":"BreadcrumbList",
+        "@id":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html#breadcrumb",
+        "itemListElement":[
+          {"@type":"ListItem","position":1,"name":"首页","item":"https://weibinlawyer.com/"},
+          {"@type":"ListItem","position":2,"name":"UDRP 域名争议法律服务与实务指南","item":"https://weibinlawyer.com/udrp/"},
+          {"@type":"ListItem","position":3,"name":"UDRP 案例库","item":"https://weibinlawyer.com/udrp/cases/"},
+          {"@type":"ListItem","position":4,"name":"{{CASE_NUMBER}}","item":"https://weibinlawyer.com/udrp/cases/{{CASE_ID}}.html"}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="卫斌律师首页"><span class="brand-mark">卫</span><span class="brand-text">卫斌律师</span></a>
+    <nav aria-label="主导航"><a href="../../practices.html">业务领域</a><a href="../../udrp/index.html">UDRP 专题</a><a href="../../articles/index.html">专业文章</a><a href="../../media-interviews.html">媒体采访</a><a href="../../about-wei-bin.html">关于</a><a href="#contact">联系</a></nav>
+  </header>
+  <main>
+    <section class="section article-page">
+      <nav class="breadcrumb" aria-label="面包屑"><a href="../../index.html">首页</a><span> / </span><a href="../../udrp/index.html">UDRP 域名争议法律服务与实务指南</a><span> / </span><a href="index.html">UDRP 案例库</a><span> / </span><span>{{CASE_NUMBER}}</span></nav>
+      <div class="section-heading">
+        <p class="eyebrow">{{PROVIDER}} · {{PANEL_TYPE_ZH}}专家组 · 程序语言：{{LANGUAGE}}</p>
+        <h1>{{CASE_NUMBER}}：{{DISPUTED_DOMAIN}} 域名争议</h1>
+        <p class="article-byline">裁决日期：{{DECISION_DATE}}｜来源：{{PROVIDER_FULL_NAME}}｜核对日期：{{VERIFIED_DATE}}</p>
+      </div>
+      <div class="prose">
+        <p class="publication-note">本页内容依据 {{PROVIDER}} 官方公布的裁决全文整理，仅陈述该裁决记载的事实与认定，不构成针对本页所涉当事人或任何具体事项的法律意见，也不对任何程序结果作出评价或承诺。</p>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="section-heading"><p class="eyebrow">Case Facts</p><h2>案件基本信息</h2></div>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <caption>{{CASE_NUMBER}} 案件基本信息（照录官方裁决全文）</caption>
+          <thead><tr><th scope="col">项目</th><th scope="col">内容</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">案件编号</th><td>{{CASE_NUMBER}}</td></tr>
+            <tr><th scope="row">作出裁决的机构</th><td>{{PROVIDER_FULL_NAME}}</td></tr>
+            <tr><th scope="row">专家组组成</th><td>{{PANEL_TYPE_ZH}}专家组{{DISSENT_NOTE}}</td></tr>
+            <tr><th scope="row">程序开始日</th><td>{{COMMENCEMENT_DATE}}</td></tr>
+            <tr><th scope="row">裁决日期</th><td>{{DECISION_DATE}}</td></tr>
+            <tr><th scope="row">争议域名</th><td>{{DISPUTED_DOMAINS}}</td></tr>
+            <tr><th scope="row">投诉人</th><td>{{COMPLAINANT}}</td></tr>
+            <tr><th scope="row">被投诉人</th><td>{{RESPONDENT}}</td></tr>
+            <tr><th scope="row">裁决结果</th><td>{{RESULT_ZH}}</td></tr>
+            <tr><th scope="row">RDNH 认定</th><td>{{RDNH_ZH}}</td></tr>
+            <tr><th scope="row">程序语言</th><td>{{LANGUAGE}}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><p class="eyebrow">Three Elements</p><h2>三项要件的认定</h2><p>按 UDRP 第 4(a) 条，投诉人须同时证明三项要件。下表只记录专家组在该裁决中的实际认定。</p></div>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead><tr><th scope="col">要件</th><th scope="col">该案认定</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">相同或混淆性近似</th><td>{{ELEMENT_1}}</td></tr>
+            <tr><th scope="row">持有人无权利或合法利益</th><td>{{ELEMENT_2}}</td></tr>
+            <tr><th scope="row">恶意注册并恶意使用</th><td>{{ELEMENT_3}}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="prose">
+        <h2>事实与程序经过</h2>
+        <p>{{SUMMARY}}</p>
+        <h2>专家组认定的要点</h2>
+        <p>{{HOLDING}}</p>
+        <h2>援引条款</h2>
+        <ul>
+          <li>《统一域名争议解决政策》：{{POLICY_PARAGRAPHS}}</li>
+          <li>《程序规则》：{{RULES_PARAGRAPHS}}</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="section-heading"><p class="eyebrow">Source</p><h2>官方来源</h2></div>
+      <div class="prose">
+        <p>裁决全文（官方来源）：<a href="{{SOURCE_URL}}" target="_blank" rel="noopener noreferrer">{{SOURCE_URL}}</a></p>
+        <p class="publication-note">上述链接指向作出裁决的机构官方网站。链接内容可能随时间调整，若无法访问，请在对应机构的官方案件检索系统中按案件编号查询。本页摘要以核对当日所见的官方文本为准。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><p class="eyebrow">Related</p><h2>相关阅读</h2></div>
+      <div class="prose">
+        <p>本案例所属专题分类：{{KEY_ISSUES}}。规则体系与实务路径见 <a href="../../udrp/index.html">UDRP 域名争议法律服务与实务指南</a>。</p>
+        <p>相关服务：<a href="../../services/udrp-domain-name-disputes.html">UDRP 域名争议服务说明</a>　·　<a href="../../services/udrp-response-guide.html">收到 UDRP 投诉怎么办</a>　·　<a href="../../services/ai-domain-disputes.html">.ai 域名争议专题</a></p>
+      </div>
+    </section>
+
+    <section id="contact" class="section band">
+      <div class="contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h2>联系与咨询</h2>
+          <p class="contact-lead">首次沟通建议先说明：争议域名、是否已收到正式通知、通知载明的截止时间，以及希望实现的目标。</p>
+          <p><a class="button primary" href="tel:+8615876587811">电话：15876587811</a></p>
+          <p><a class="button secondary" href="mailto:weibin@longanlaw.com?subject=UDRP%20%E5%9F%9F%E5%90%8D%E4%BA%89%E8%AE%AE%E5%92%A8%E8%AF%A2">邮件：weibin@longanlaw.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><p>© 2026 卫斌律师。北京市隆安（深圳）律师事务所。本站内容仅供一般信息参考，不构成针对具体事项的法律意见，不承诺案件结果。</p></footer>
+</body>
+</html>
