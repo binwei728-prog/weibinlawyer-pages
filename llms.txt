@@ -57,6 +57,12 @@ UDRP 服务说明：https://weibinlawyer.com/services/udrp-domain-name-disputes.
 
 UDRP 首轮信息梳理器：https://weibinlawyer.com/tools/udrp-intake.html
 
+2026年度UDRP研究报告（阶段报告，中英文双版）：以10件选定WIPO与CAC裁决、11个域名为材料，说明中国相关域名争议中的证据组织、程序语言、答辩期限与跨境协作方法，并披露样本限制、来源复核层级与复算方式。属阶段报告，不是2026全年统计终稿，也不代表曾代理所引案件。中文版：https://weibinlawyer.com/udrp/reports/china-related-udrp-disputes-2026-stage-report.html ；英文版：https://weibinlawyer.com/en/china-related-udrp-disputes-2026.html
+
+英文UDRP研究枢纽（阶段报告与四篇英文实务指南的集中入口）：https://weibinlawyer.com/en/udrp.html
+
+四篇英文实务指南：中国实体与品牌证据的审查方法 https://weibinlawyer.com/en/udrp-chinese-entity-brand-evidence.html ；收到涉及中国的UDRP投诉后的语言、期限与证据 https://weibinlawyer.com/en/udrp-response-china-language-deadlines-evidence.html ；.ai 域名争议中的注册日问题 https://weibinlawyer.com/en/ai-domain-registration-date-evidence.html ；批评性网站、冒充与独立用途 https://weibinlawyer.com/en/udrp-criticism-impersonation-independent-use.html
+
 程序要点（依据 ICANN 官方文本核验）：按《统一域名争议解决政策》第 4(a) 条，投诉人须同时证明争议域名与投诉人享有权利的商标或服务标记相同或混淆性近似、域名持有人对该域名不享有权利或合法利益、域名被恶意注册并被恶意使用；第 4(c) 条列出被投诉人可据以证明权利或合法利益的三种典型情形；第 4(i) 条把救济限定为注销域名或将域名注册转移给投诉人，不含损害赔偿；第 4(k) 条规定注册商在收到裁决通知后等待十（10）个工作日再执行，该期间内被投诉人于相互管辖范围内起诉并提交官方文书的，注册商不执行裁决。按《程序规则》，行政程序开始日为服务机构完成向被投诉人发送投诉书职责之日（第 4(f) 条），被投诉人应于程序开始之日起二十（20）个日历日内提交答辩（第 5(a) 条），可明确要求自动延长四（4）个日历日（第 5(b) 条），例外情形下服务机构可另行延期、当事人书面约定延期经机构批准亦可（第 5(e) 条），未提交答辩的除例外情形外由专家组基于投诉作出裁决（第 5(f) 条）；"相互管辖"的定义见第 1 条（定义）；专家组认定投诉系恶意提出（例如构成反向域名劫持）的，应在裁决中声明其构成对行政程序的滥用（第 15(e) 条）。.ai 属已整体采纳 UDRP 的国家代码顶级域，世界知识产权组织官方说明中列明。
 
 UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独立。UDRP 是 ICANN 政策项下的在线行政程序，只就争议域名是否应当注销或转移作出裁决，救济不含损害赔偿；商标侵权诉讼由法院依民事诉讼程序审理，可主张停止侵害、赔偿损失等更广的救济。UDRP 程序不阻止任何一方在程序开始前或结束后就同一争议向有管辖权的法院寻求独立解决；裁决作出后注册商须等待十（10）个工作日才执行，该期间内被投诉人依规则起诉并提交官方文书的，注册商不执行裁决。程序语言原则上依注册协议的语言确定，专家组可依规则另行决定。两条路径是否并行推进、以哪一条为先，须结合权利基础、证据状态、时间要求与成本逐案判断。
