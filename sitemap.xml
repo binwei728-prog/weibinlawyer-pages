@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://weibinlawyer.com/</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,17 +14,17 @@
   </url>
   <url>
     <loc>https://weibinlawyer.com/about-wei-bin.html</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url><loc>https://weibinlawyer.com/practices.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/services/corporate-capital-complex-disputes.html</loc><lastmod>2026-07-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/articles/</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://weibinlawyer.com/research-publications.html</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://weibinlawyer.com/research-publications.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/articles/cross-border-logistics-payment-recovery.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/articles/illegal-same-business-major-loss.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://weibinlawyer.com/media-interviews.html</loc><lastmod>2026-09-17</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://weibinlawyer.com/media-interviews.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://weibinlawyer.com/articles/shenzhen-detention-lawyer-meeting-materials.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -155,6 +155,7 @@
   <url><loc>https://weibinlawyer.com/media/yicai-power-market-sales-rebate-20260910.html</loc><lastmod>2026-09-11</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/media/nbd-huachang-chemical-control-change-20260916.html</loc><lastmod>2026-09-17</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/media/yingke-shenzhen-top10-criminal-cases-20260915.html</loc><lastmod>2026-09-17</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://weibinlawyer.com/media/yicaiglobal-alibaba-ai-domains-20260904.html</loc><lastmod>2026-09-21</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/publications/jcrb-family-bribery-common-intent-20120822.html</loc><lastmod>2026-09-11</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://weibinlawyer.com/publications/jcrb-website-advertising-copyright-crime-20120611.html</loc><lastmod>2026-09-11</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
   <url><loc>https://weibinlawyer.com/publications/jcrb-cooperative-investment-bribery.html</loc><lastmod>2026-09-11</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
@@ -167,7 +168,7 @@
   <url><loc>https://weibinlawyer.com/services/udrp-domain-name-disputes.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/services/udrp-response-guide.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/services/ai-domain-disputes.html</loc><lastmod>2026-09-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://weibinlawyer.com/en/udrp-counsel.html</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://weibinlawyer.com/en/udrp-counsel.html</loc><lastmod>2026-09-21</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://weibinlawyer.com/tools/udrp-intake.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://weibinlawyer.com/udrp/reports/china-related-udrp-disputes-2026-stage-report.html</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://weibinlawyer.com/en/china-related-udrp-disputes-2026.html</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>

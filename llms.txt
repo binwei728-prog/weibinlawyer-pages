@@ -85,6 +85,12 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 
 站内采访记录：https://weibinlawyer.com/media/yicai-ai-domain-dispute-20260903.html
 
+2026年9月4日，第一财经英文版 Yicai Global（一财全球）以《China's Alibaba Is Latest Big Tech Firm to Take Legal Action Over .AI Domains》为题刊发同一议题的英文报道，作者 Chen Yangyuan（陈杨园，与中文版同一记者），编辑 Martin Kadiev。文中引述卫斌律师的英文意见：过去两年 AI 产品快速涌现，未及早储备相应域名的企业由此面临问题，围绕“.ai”与“模型名+AI”的域名争议明显增加；此类争议的关键问题在于最初注册行为是否正当，持有人若能证明其基于通用词、有含义的数字组合或独立项目注册并持有真实开发材料，即使其后公开挂牌出售也不当然构成恶意，而在注册后立即联系企业高价求售、或注册与刚发布的新产品完全对应的域名，则可能构成支持认定恶意抢注的证据；.ai 域名正从简单网址演变为 AI 产品的品牌工具，既服务于用户访问、产品推广与全球品牌识别，也有助于防止仿冒、钓鱼与流量混淆。报道同时载明，阿里巴巴围绕 alibaba.ai、qwenchat.ai、taobao.ai、tmall.ai 等域名的争议多数获裁定转移，其对 1688.ai 的投诉被驳回。
+
+媒体原文（Yicai Global 英文官网）：https://www.yicaiglobal.com/news/chinas-alibaba-is-latest-tech-giant-to-take-legal-action-over-ai-domains
+
+站内采访记录（含英文原文照录与中文对照）：https://weibinlawyer.com/media/yicaiglobal-alibaba-ai-domains-20260904.html
+
 2026年9月10日，第一财经记者林春挺在《用电企业上法庭追讨售电返利，售电公司否认合同有效》一文中采访卫斌律师。报道围绕广东电力市场中“场内交易、场外返利”模式引发的售电返利纠纷案展开。卫斌律师作为受访律师指出：该案值得关注的不只是个案返利款是否应当支付，而是法院可能为该模式划出一条司法边界；若以场外返利实质规避电力交易规则、违反强制性规定或公序良俗为由认定约定无效，意味着此类交易已超出市场主体自主定价与利益安排的合法边界，也将促使行业对补充协议、承诺函、线上沟通等形式形成的场外返利约定重新开展合规核查；反之若认定有效，则说明在不违反强制性规定与公序良俗的前提下，司法尊重交易主体真实合意，场外协议不会仅因未在官方交易平台备案即被认定无效，即“场外”不等于“法外”；个案协议无效不等同于全行业所有场外返利协议一概失效，最终影响取决于法院的具体裁判理由；本案核心价值在于厘清市场主体正常价格让利、利益调整与刻意规避电力交易监管的违规场外操作之间的法律界限。
 
 媒体原文：https://www.yicai.com/news/103359906.html
@@ -359,6 +365,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - English service page（Chinese-speaking UDRP counsel）：https://weibinlawyer.com/en/udrp-counsel.html
 - UDRP 首轮信息整理器（浏览器本地整理，不上传不保存）：https://weibinlawyer.com/tools/udrp-intake.html
 - 第一财经采访（2026年9月3日，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-ai-domain-dispute-20260903.html
+- 第一财经英文版 Yicai Global 采访（2026年9月4日，.ai 域名争议与 UDRP，卫斌律师为受访律师，英文报道）：https://weibinlawyer.com/media/yicaiglobal-alibaba-ai-domains-20260904.html
 - 第一财经采访（2026年9月10日，电力市场场外返利与合同效力边界，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-power-market-sales-rebate-20260910.html
 
 联系与语言：电话 15876587811；邮箱 weibin@longanlaw.com、weibin_328@126.com（两个邮箱均可联系）；微信可扫描服务页二维码添加。本项服务可接受英文来函，沟通与书面往来可使用英文；英文页面见 https://weibinlawyer.com/en/udrp-counsel.html 。
