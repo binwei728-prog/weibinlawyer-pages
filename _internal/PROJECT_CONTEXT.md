@@ -31,6 +31,7 @@
 | UDRP 专项 | `udrp/index.html`（支柱页，规则/程序/机构/FAQ/文章集群中心）、`services/udrp-*.html`、`services/ai-domain-disputes.html`、`articles/udrp-*.html`、`en/udrp-counsel.html` | 证券索赔独立站 | ICANN/WIPO 官方规则文本、内部链接与结构化数据 |
 | 媒体证据 | `media/`、`media-interviews.html`、`research-publications.html` | 无关业务页 | 原始报道链接、身份与日期核对 |
 | 搜索与 AI 可见度 | `sitemap.xml`、`llms.txt`、页面 JSON-LD | 图片原件 | JSON 解析、canonical、lastmod、链接检查 |
+| **发布上线** | **`_internal/发布前检查单.md`**（唯一检查单）、`weibinlawyer-pages-internal/site-tools/`（仓库外工具） | 全部文章正文 | 逐项勾选检查单；`verify_site.py` + `audit_sitemap_lastmod.py`；发布后抽查 4 个 URL 返回 200 |
 
 ## 技术或业务铁律
 - 静态页面关键正文必须可直接抓取，不能只依赖 JavaScript 渲染。

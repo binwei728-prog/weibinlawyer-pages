@@ -15,7 +15,8 @@
 | 文件 | 用途 |
 |---|---|
 | `CURRENT_STATUS.md` / `PROJECT_CONTEXT.md` / `TODO.md` / `DECISIONS.md` | 项目记忆四件套（跨对话交接面） |
-| `README-上线说明.md` / `上线前替换信息.md` / `上线完成记录.md` / `网站自动更新方案.md` / `腾讯云上线操作清单.md` | 历史上线与运维文档（部分已被 GitHub Pages 方案取代） |
+| `发布前检查单.md` | **当前唯一**的发布前检查单（GitHub Pages 流程）。改动页面 → 校验 → 提交推送，逐步可勾选 |
+| `README-上线说明.md` / `上线前替换信息.md` / `上线完成记录.md` / `网站自动更新方案.md` / `腾讯云上线操作清单.md` | 历史上线与运维文档（部分已被 GitHub Pages 方案取代，仅留档） |
 | `replace-domain.ps1` | 早期域名替换脚本 |
 | `update_structured_data.py` | 结构化数据生成脚本 |
 

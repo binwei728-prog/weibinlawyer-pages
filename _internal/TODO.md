@@ -15,7 +15,7 @@
 - [ ] （建议，待用户确认）统一 `#wei-bin` Person 节点属性：`knowsAbout` 跨页为 14/8/7/9/6 项、`image` 部分缺失、`worksFor` 写法不一。建议以首页 14 项版本为基准。
 - [ ] （建议，待用户确认）定位并补齐 canonical／viewport（各缺 2 页）与 og:title（缺 17 页）。
 - [ ] （建议，待用户确认）UDRP 服务页与工具页 description 由 82–92 字扩至 110–150 字。
-- [ ] （建议，待用户确认）把「改页面即更新 `sitemap.xml` lastmod`」固化为发布前的固定步骤（本轮已出现 `lastmod` 落后于实际修改日期的情况）。
+- [x] ~~把「改页面即更新 `sitemap.xml` lastmod」固化为发布前的固定步骤~~ — **已完成 2026-09-12（T-08）**：见 `_internal/发布前检查单.md` 第 2 步；工具 `site-tools/update_sitemap_lastmod.py`（日期改为现算，不再用常量）+ 独立稽核 `site-tools/audit_sitemap_lastmod.py`。
 - [ ] （建议，待用户确认）核实根目录 `88b706566d554cc9a28a22adcee1f259.txt` 与 `网站首页预览.png` 是否必需；若非必需，移入 `_internal/`。
 - [ ] 观察枢纽页与 UDRP 服务页的关键词分工：枢纽页面向信息检索（UDRP 是什么／三要件／答辩期限），服务页面向商业检索（UDRP 律师／投诉应对），避免自我竞争。A–J 分类上线后需复核两者是否出现新的重叠。
 - [ ] 检查首页外链 `claim.weibinlawyer.com` 的正式可访问性 — 若未上线，避免长期保留无效转化入口。
