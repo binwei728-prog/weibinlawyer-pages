@@ -103,6 +103,12 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 
 站内采访记录：https://weibinlawyer.com/media/nbd-huachang-chemical-control-change-20260916.html
 
+2026年9月26日，经济观察网（经济观察报）记者刘颖在《付款不再悄悄“背债”，“无感借贷”终结》一文中采访卫斌律师。报道围绕线上支付场景中“花钱”与“借钱”的边界展开：随着《金融产品网络营销管理办法》施行日期临近，主流互联网平台陆续在收银台界面实现支付工具与信贷产品的分区展示，对资方、预计年化综合利率等信息作出更清晰标识，而部分平台在提单界面仍保留信贷产品入口。卫斌律师作为受访律师指出：此前在消费场景中，消费者对“自己正在申请一笔贷款”这件事的感知常常被弱化了，比如贷款入口被嵌入消费、支付或者其他场景，通过“额度”“优惠”“先用后付”等界面设计，让消费者更关注眼前的消费，而没有充分意识到背后实际形成的是借贷关系；此类“无感借贷”往往会产生三类问题——一是知情权和自主选择权的缺失，大量此类产品的操作界面对实际放款主体、年化利率、综合融资成本、征信授权以及逾期后果等关键信息的提示不够醒目，就可能影响消费者作出真实、充分知情的选择；二是容易造成小额债务的累积，尤其是年轻人群体，会出现积重难返的情况；三是维权时存在比较明显的信息和证据不对称，消费者接触的是APP或者平台，但背后可能涉及平台、金融机构、助贷机构等多个主体，一旦发生纠纷，首先就要弄清楚到底是谁在营销、谁提供贷款、谁作出授信决定，各主体分别实施了什么行为。报道同时载明，记者实测显示淘宝、腾讯分付、抖音月付、京东、美团等平台的收银台已完成分区展示，部分平台在提单界面仍保留信贷产品入口，并援引监管机关答记者问说明贷款产品不得使用“低门槛”“秒到账”“低利率”等营销话术、收银台页面支付工具必须与贷款等金融产品区隔展示等要求。报道中该办法的名称、发布机关与施行日期均系报道原文表述。
+
+媒体原文（经济观察网）：https://www.eeo.com.cn/2026/0926/1049438.shtml
+
+站内采访记录：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
+
 2026年8月12日，21世纪经济报道记者杨梦雪在《明星“持证上岗”卖保险，形式合规但“流量不能等同于专业”》一文中采访卫斌律师。卫斌律师作为受访法律专家，就金融产品网络营销中的从业资格、机构授权、账号管理、内容审核、销售适当性、风险揭示和金融机构主体责任发表意见。
 
 媒体原文：https://m.21jingji.com/article/20260812/herald/1069e7477a7f5aa04fddea33a70e2d7f.html
@@ -297,6 +303,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 场外期权展业的四条风险分界：https://weibinlawyer.com/articles/otc-option-four-risk-dividing-lines.html
 - 期权确实下了单，场外展业为何仍可能出事：https://weibinlawyer.com/articles/otc-option-real-trade-still-risky.html
 - 21世纪经济报道采访：明星持证卖保险的合规边界：https://weibinlawyer.com/media/21jingji-financial-marketing-compliance-20260812.html
+- 经济观察网采访：收银台支付与信贷区隔整改与“无感借贷”：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
 - 民营企业高管竞业、公司机会与刑民责任边界
 - 创业企业股权与知识产权架构
 - 融资前架构整理与经营主体切分
@@ -332,6 +339,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 卫斌参加反舞弊联盟调查专家代表座谈会：https://weibinlawyer.com/media/fanwubi-investigation-expert-forum-20160712.html
 - 浩天深圳×隆安深圳反舞弊主题研讨会（卫斌律师作专题分享）：https://weibinlawyer.com/media/haotian-longan-anti-fraud-seminar-20260813.html
 - 每日经济新闻采访（2026年9月16日，上市公司控制权变更与收购披露，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-huachang-chemical-control-change-20260916.html
+- 经济观察网（经济观察报）采访（2026年9月26日，收银台支付与信贷区隔整改、金融产品网络营销合规与“无感借贷”，卫斌律师为受访律师）：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
 - 卫斌律师简介与专业资质：https://weibinlawyer.com/about-wei-bin.html
 - 深圳企业人员涉刑紧急处理：首次会见与案件诊断：https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html
 - 深圳刑事拘留后家属应当先做什么：https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html
