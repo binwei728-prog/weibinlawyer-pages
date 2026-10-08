@@ -109,6 +109,12 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 
 站内采访记录：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
 
+2026年9月29日，每日经济新闻记者陈婷在《调查｜C端Token中转市场乱象：定价失序、计量“黑盒化”、供给鱼龙混杂 行业亟需第三方“公平秤”》（每经编辑毕陆名）一文中采访卫斌律师。报道围绕大模型产业中 Token（词元）流通环节的市场秩序展开：电商平台在售的 Token 日卡、月卡未标明具体额度，商家多自称 API 服务商或 API 中转第三方平台，部分无法出示原厂授权，个别引导买家脱离平台交易、转至微信私下交付兑换码。卫斌律师作为受访法律专家指出：应当按照“行政合规—民事责任—刑事责任”三个层次判断，不能只要无资质就直接套用刑事罪名；无备案、无资质的平台可能构成无证经营互联网信息服务或者其他增值电信业务，非经营性互联网信息服务适用备案制度，面向不特定用户持续收费提供服务、业务实质属于经营性互联网信息服务或其他增值电信业务的，则可能需要取得相应经营许可，而 API 中转究竟属于信息服务业务、在线数据处理业务还是一般软件技术服务，需要根据平台是否直接向终端用户提供信息、是否处理数据、是否撮合交易以及具体技术架构判断，不能仅凭“通过互联网收费”一概认定；无备案、无许可经营可能面临责令改正、没收违法所得、罚款、关停网站或停止服务等行政责任；《生成式人工智能服务管理暂行办法》明确利用生成式人工智能技术向境内公众提供服务、包括通过可编程接口提供服务的组织和个人属于生成式人工智能服务提供者，中转商虽然不训练底层模型，也不当然只是“网络管道”；无备案、无资质的平台还可能违反个人信息、数据出境和网络安全规定，而刑事责任需要更多事实判断，不是单纯取决于“无证”；下游普通个人因图便宜购买中转服务、且不知道上游 Token 系盗取或破解所得，通常不会仅因购买行为承担刑事责任，但存在财产风险、数据风险、知识产权和保密风险以及企业自身的合规风险；电商平台不是对所有卖家违法行为自动承担责任，但负有与其控制能力相匹配的审查和处置义务。报道同时呈现了快思慢想研究院院长田丰、艾媒咨询 CEO 兼首席分析师张毅等其他受访人士的分析，并载明加州大学圣巴巴拉分校研究团队对 428 个商用中转路由测量研究的结论。报道提及的规章名称与内容均系报道原文表述。
+
+媒体原文（每日经济新闻）：https://m.nbd.com.cn/shendu/2026-09-29/4594874.html
+
+站内采访记录：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
+
 2026年8月12日，21世纪经济报道记者杨梦雪在《明星“持证上岗”卖保险，形式合规但“流量不能等同于专业”》一文中采访卫斌律师。卫斌律师作为受访法律专家，就金融产品网络营销中的从业资格、机构授权、账号管理、内容审核、销售适当性、风险揭示和金融机构主体责任发表意见。
 
 媒体原文：https://m.21jingji.com/article/20260812/herald/1069e7477a7f5aa04fddea33a70e2d7f.html
@@ -304,6 +310,14 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 期权确实下了单，场外展业为何仍可能出事：https://weibinlawyer.com/articles/otc-option-real-trade-still-risky.html
 - 21世纪经济报道采访：明星持证卖保险的合规边界：https://weibinlawyer.com/media/21jingji-financial-marketing-compliance-20260812.html
 - 经济观察网采访：收银台支付与信贷区隔整改与“无感借贷”：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
+- 每日经济新闻采访：C端Token中转市场的合规边界与三层责任判断：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
+- Token中转平台合规边界
+- API中转站与经营资质
+- 无证经营互联网信息服务与增值电信业务认定
+- 生成式人工智能服务提供者认定
+- 经营性互联网信息服务许可与备案制度
+- 数据出境与网络安全合规
+- 平台审查处置义务边界
 - 民营企业高管竞业、公司机会与刑民责任边界
 - 创业企业股权与知识产权架构
 - 融资前架构整理与经营主体切分
@@ -340,6 +354,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 浩天深圳×隆安深圳反舞弊主题研讨会（卫斌律师作专题分享）：https://weibinlawyer.com/media/haotian-longan-anti-fraud-seminar-20260813.html
 - 每日经济新闻采访（2026年9月16日，上市公司控制权变更与收购披露，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-huachang-chemical-control-change-20260916.html
 - 经济观察网（经济观察报）采访（2026年9月26日，收银台支付与信贷区隔整改、金融产品网络营销合规与“无感借贷”，卫斌律师为受访律师）：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
+- 每日经济新闻采访（2026年9月29日，C端Token中转市场的行政合规与刑事风险边界、无证经营互联网信息服务与增值电信业务认定、生成式人工智能服务提供者地位，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
 - 卫斌律师简介与专业资质：https://weibinlawyer.com/about-wei-bin.html
 - 深圳企业人员涉刑紧急处理：首次会见与案件诊断：https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html
 - 深圳刑事拘留后家属应当先做什么：https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html
