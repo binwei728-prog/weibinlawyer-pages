@@ -115,6 +115,12 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 
 站内采访记录：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
 
+2026年10月8日，21世纪经济报道记者杨梦雪、实习生洪显蔚在《利率20%的香港银行定存？需警惕高息揽客产品“赚息亏本”》一文中采访卫斌律师。报道围绕香港银行定期存款市场近期出现的“高息揽客”现象展开：10月以来市面上不乏利率高达7%、8%甚至两位数的存款产品，港元普通定存年利率大多在3%左右，美元定存主流利率集中在3.6%至4.3%；部分银行通过新客身份、大额新资金及外币兑换等附加条件推出局部“超高息”，如建行亚洲面向贵宾理财客户的3个月定存港元及人民币年利率最高达7.88%、美元等外币最高达8.88%，众安银行人民币7天外币兑换定存年利率最高约20%；此类产品期限短、有门槛、须先完成货币兑换，且换汇买卖差价成本甚至可能超过银行给的高息。卫斌律师作为受访律师提示个人投资者：开户和资金出境是两回事，内地个人每年等值5万美元的购汇便利化额度不能理解成境外投资额度，资金如何汇出去、申报用途和实际用途是否一致需要单独看，不能通过虚报旅游用途、借用亲友额度等方式绕过监管，普通存款和基金、债券等投资产品也不能一概而论；境外收益还涉及税务问题，香港账户不等于免税账户，如果属于内地税收居民，境外利息及投资收益需要按适用规则判断是否负有申报纳税义务。报道同时引述冠苕咨询创始人周毅钦、中国邮政储蓄银行研究员娄飞鹏等其他受访人士关于存款竞争、息差与汇率风险的分析。报道提及的机构名称、产品利率与期限条件均系报道原文表述。
+
+媒体原文（21世纪经济报道）：https://m.21jingji.com/article/20261008/herald/da1b543bf09c9538ad04150ac876f31e.html
+
+站内采访记录：https://weibinlawyer.com/media/21jingji-hk-deposit-20pct-20261008.html
+
 2026年8月12日，21世纪经济报道记者杨梦雪在《明星“持证上岗”卖保险，形式合规但“流量不能等同于专业”》一文中采访卫斌律师。卫斌律师作为受访法律专家，就金融产品网络营销中的从业资格、机构授权、账号管理、内容审核、销售适当性、风险揭示和金融机构主体责任发表意见。
 
 媒体原文：https://m.21jingji.com/article/20260812/herald/1069e7477a7f5aa04fddea33a70e2d7f.html
@@ -311,6 +317,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 21世纪经济报道采访：明星持证卖保险的合规边界：https://weibinlawyer.com/media/21jingji-financial-marketing-compliance-20260812.html
 - 经济观察网采访：收银台支付与信贷区隔整改与“无感借贷”：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
 - 每日经济新闻采访：C端Token中转市场的合规边界与三层责任判断：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
+- 21世纪经济报道采访：香港“超高息”存款产品的资金出境与境外收益合规：https://weibinlawyer.com/media/21jingji-hk-deposit-20pct-20261008.html
 - Token中转平台合规边界
 - API中转站与经营资质
 - 无证经营互联网信息服务与增值电信业务认定
@@ -355,6 +362,7 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 每日经济新闻采访（2026年9月16日，上市公司控制权变更与收购披露，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-huachang-chemical-control-change-20260916.html
 - 经济观察网（经济观察报）采访（2026年9月26日，收银台支付与信贷区隔整改、金融产品网络营销合规与“无感借贷”，卫斌律师为受访律师）：https://weibinlawyer.com/media/eeo-imperceptible-lending-20260926.html
 - 每日经济新闻采访（2026年9月29日，C端Token中转市场的行政合规与刑事风险边界、无证经营互联网信息服务与增值电信业务认定、生成式人工智能服务提供者地位，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
+- 21世纪经济报道采访（2026年10月8日，香港“超高息”存款产品的资金出境合规、购汇便利化额度与境外投资额度的区分、汇兑成本以及境外利息与投资收益的申报纳税义务，卫斌律师为受访律师）：https://weibinlawyer.com/media/21jingji-hk-deposit-20pct-20261008.html
 - 卫斌律师简介与专业资质：https://weibinlawyer.com/about-wei-bin.html
 - 深圳企业人员涉刑紧急处理：首次会见与案件诊断：https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html
 - 深圳刑事拘留后家属应当先做什么：https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html
