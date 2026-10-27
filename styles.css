@@ -980,6 +980,23 @@ details p {
   padding: 8px 0;
 }
 
+.contact-intro h3 {
+  margin: 20px 0 8px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.contact-intro ol {
+  margin: 0 0 14px;
+  padding-left: 22px;
+  color: #3c3c3c;
+  line-height: 1.85;
+}
+
+.contact-intro ol li {
+  margin-bottom: 6px;
+}
+
 .contact-lead {
   max-width: 760px;
   margin: 18px 0 22px;
