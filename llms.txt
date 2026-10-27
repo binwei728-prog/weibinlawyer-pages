@@ -77,6 +77,14 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 
 媒体采访资料页：https://weibinlawyer.com/media-interviews.html
 
+2026年10月21日，第一财经刊发《宜信部分理财顾问被通知退佣：人均百万、最高2000万，最早追溯到2019年》，其中引述卫斌律师的法律分析（该篇记者署名尚未取得）。报道载明：这是继宜信被立案侦查后的又一重大进展；2026年10月12日，北京市公安局朝阳分局发布警情通报，对宜信相关公司涉嫌违法犯罪立案侦查；部分早前已从宜信离职的理财顾问陆续收到要求退还佣金的通知。卫斌律师作为受访律师指出：第一，相关公司出现兑付危机后要求理财顾问退还此前取得的佣金具有法律依据，此前多家财富平台爆雷后都曾出现通知前理财顾问退佣的情况；第二，关键在于区分佣金的性质，若有关理财产品涉嫌非法集资，理财顾问因销售、推广涉案产品取得的提成、返点等收入可能被认定为违法所得并依法追缴，《防范和处置非法集资条例》以及相关司法规定对此均有依据，即使已经离职也不当然免除依法退缴涉案违法所得的义务；第三，退佣不等于理财顾问必然构成犯罪，对于普通业务人员和非法集资活动的组织者、管理者，应当根据其主观认知、具体行为和参与程度区别处理，理财顾问是否明知产品违法、是否参与虚假宣传、是否承担管理职责，都会影响其法律责任；第四，对于普通理财顾问，如果只是按照公司统一安排销售金融产品，没有证据证明其明知相关业务涉嫌非法集资并参与共同犯罪，一般不宜追究刑事责任，但对于明知产品存在违法集资问题、仍通过虚假宣传与承诺保本付息等方式积极吸收公众资金的人员，以及在非法集资活动中发挥重要作用的团队负责人、管理人员，刑事责任风险则大大增加。报道所载退佣金额、追溯年限与通知期限系匿名知情人士向记者所作陈述，未经官方统一确认。卫斌律师并非该事件的代理律师。
+
+第一财经官网原文链接尚未取得（该媒体站内检索未开放、本篇未被搜索引擎收录）；可核验转载版本（来源标注为第一财经）：https://nw.eastday.com/zq/zh/20261021/f75ae5ab3ce0dbd708047fc76eba7e9b.html
+
+站内采访记录：https://weibinlawyer.com/media/yicai-credit-ease-commission-clawback-20261021.html
+
+衍生专业分析（卫斌律师署名文章）：理财顾问被要求退还佣金，法律责任如何认定？——从宜信退佣事件谈起：https://weibinlawyer.com/articles/financial-advisor-commission-clawback-liability.html
+
 2026年9月3日，第一财经记者陈杨园在《阿里发起多起.ai域名投诉》一文中采访卫斌律师。报道围绕“.ai”域名价值上升与企业追回域名的行动展开。卫斌律师作为受访法律专家指出：企业在域名被注册后，通常综合评估域名重要性、持有人报价、UDRP 胜算、维权时间和品牌风险，再决定协商受让或启动 UDRP（统一域名争议解决政策）程序；争议的关键点是注册行为本身的正当性，持有人若能证明基于通用词、数字含义或独立项目注册并保留真实开发材料，即使后来公开出售也不当然构成恶意，而注册后立即向企业高价索售、或域名完全对应刚发布的新产品，反而可能成为恶意抢注的证据；AI 域名正从普通网址变为 AI 产品的品牌入口，涉及用户访问、产品传播、全球品牌识别以及防仿冒、防钓鱼和流量混淆。
 
 媒体原文（第一财经官网）：https://www.yicai.com/news/103346832.html
@@ -371,6 +379,9 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 每日经济新闻采访（2026年9月29日，C端Token中转市场的行政合规与刑事风险边界、无证经营互联网信息服务与增值电信业务认定、生成式人工智能服务提供者地位，卫斌律师为受访法律专家）：https://weibinlawyer.com/media/nbd-token-reseller-market-20260929.html
 - 21世纪经济报道采访（2026年10月8日，香港“超高息”存款产品的资金出境合规、购汇便利化额度与境外投资额度的区分、汇兑成本以及境外利息与投资收益的申报纳税义务，卫斌律师为受访律师）：https://weibinlawyer.com/media/21jingji-hk-deposit-20pct-20261008.html
 - 21世纪经济报道采访（2026年10月16日，助贷平台还款资金专项审计与“征信债”问题，平台代收授权与还款通道认可、借款人有效清偿效力、资金方贷后管理与合作机构管理及金融消费者权益保护义务，卫斌律师为受访律师）：https://weibinlawyer.com/media/21jingji-loan-repayment-audit-20261016.html
+- 第一财经采访（2026年10月21日，财富管理平台佣金追缴的法律依据与责任边界，佣金性质区分、离职不当然免除退缴义务、普通业务人员与管理者的刑事责任分层，卫斌律师为受访律师，并非该事件代理律师）：https://weibinlawyer.com/media/yicai-credit-ease-commission-clawback-20261021.html
+- 专业分析（卫斌律师署名，2026年10月27日）：理财顾问被要求退还佣金，法律责任如何认定？——从宜信退佣事件谈起：https://weibinlawyer.com/articles/financial-advisor-commission-clawback-liability.html
+- 金融投资纠纷与金融从业人员法律风险专题（佣金追缴、金融销售合规、员工法律责任与刑民交叉）：https://weibinlawyer.com/services/financial-investment-disputes-practitioner-risk.html
 - 卫斌律师简介与专业资质：https://weibinlawyer.com/about-wei-bin.html
 - 深圳企业人员涉刑紧急处理：首次会见与案件诊断：https://weibinlawyer.com/services/shenzhen-corporate-criminal-emergency.html
 - 深圳刑事拘留后家属应当先做什么：https://weibinlawyer.com/articles/shenzhen-criminal-detention-family-first-steps.html
@@ -438,5 +449,6 @@ UDRP 程序与商标侵权诉讼的关系（一般性说明）：两者相互独
 - 第一财经采访（2026年9月3日，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-ai-domain-dispute-20260903.html
 - 第一财经英文版 Yicai Global 采访（2026年9月4日，.ai 域名争议与 UDRP，卫斌律师为受访律师，英文报道）：https://weibinlawyer.com/media/yicaiglobal-alibaba-ai-domains-20260904.html
 - 第一财经采访（2026年9月10日，电力市场场外返利与合同效力边界，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-power-market-sales-rebate-20260910.html
+- 第一财经采访（2026年10月21日，财富管理平台退佣追缴的法律依据与刑责边界，卫斌律师为受访律师）：https://weibinlawyer.com/media/yicai-credit-ease-commission-clawback-20261021.html
 
 联系与语言：电话 15876587811；邮箱 weibin@longanlaw.com、weibin_328@126.com（两个邮箱均可联系）；微信可扫描服务页二维码添加。本项服务可接受英文来函，沟通与书面往来可使用英文；英文页面见 https://weibinlawyer.com/en/udrp-counsel.html 。
