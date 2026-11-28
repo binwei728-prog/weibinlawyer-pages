@@ -1447,3 +1447,290 @@ footer p {
 .author-entity .prose > p:first-of-type strong {
   font-weight: 700;
 }
+
+/* ============================================================
+   GLOBAL DARK TECHNOLOGY THEME (2026-11-28)
+   全站深墨黑 + 金字科技风；正文阅读区保留浅底深字。
+   思想层参考 legalagi.cn，独立实现，未复制任何资产。
+   ============================================================ */
+:root {
+  --red: #c9a96a;
+  --red-dark: #e0c289;
+  --ink: #e8edf4;
+  --muted: #a8b2c0;
+  --line: rgba(201, 169, 106, .18);
+  --paper: #0e1116;
+  --warm: #151a21;
+  --green: #79bfa6;
+  --gold: #c9a96a;
+  --gold-bright: #e8ce92;
+  --gold-dim: #8a7447;
+  --surface: #171c24;
+  --surface-2: #121720;
+  --shadow-dark: 0 14px 34px rgba(0, 0, 0, .28);
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --radius: 16px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover { color: var(--gold-bright); }
+
+::selection { color: #0e1116; background: var(--gold); }
+
+/* --- 导航 --- */
+.site-header {
+  background: rgba(14, 17, 22, .94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+}
+.brand-mark {
+  color: #0e1116;
+  background: linear-gradient(135deg, #e8ce92, #a97933);
+}
+nav { color: var(--muted); }
+nav a { transition: color .2s var(--ease-out); }
+nav a:hover { color: var(--gold-bright); }
+details > summary:first-child { color: var(--gold); }
+
+/* --- 通用标题与文字 --- */
+h1, h2, h3 { color: var(--gold-bright); letter-spacing: -.02em; }
+h2 { font-size: clamp(28px, 4vw, 42px); }
+h3 { font-size: 21px; }
+.eyebrow { color: var(--gold); font-weight: 600; letter-spacing: .18em; }
+b, strong { color: inherit; }
+
+/* --- 区块与卡片 --- */
+section.band, .band { background: var(--surface-2); }
+.section { padding: 68px 7vw; }
+.section-heading > p:last-child,
+.hero-method,
+.presence-copy p,
+.publication-intro p,
+.publication-links-intro,
+.contact-lead,
+.contact-intro ol,
+.credential-list dd,
+details p {
+  color: var(--muted);
+}
+.hero-method,
+.presence-points,
+.scenario-list,
+.method-steps article {
+  background: var(--surface);
+  border-color: var(--line);
+}
+.hero-method { border-left-color: var(--gold); }
+
+.service-grid article,
+.experience-grid article,
+.publication-list article,
+.publication-card,
+.publication-links,
+.fit-list article,
+.media-tag-grid article,
+.media-process-grid article,
+.media-bio-grid article,
+.author-entity,
+.qr-card,
+details,
+.related-links a,
+.topic-grid a {
+  color: var(--ink);
+  background: var(--surface);
+  border-color: var(--line);
+}
+.service-grid article:first-child,
+.fit-note,
+.credential-mini,
+.main-contact-card {
+  color: #f2efe9;
+  background: linear-gradient(150deg, #2a1a16, #1a1416 70%);
+  border-color: rgba(201, 169, 106, .35);
+}
+.service-grid article:first-child h3,
+.service-grid article:first-child p,
+.credential-mini strong,
+.credential-mini span,
+.credential-mini .media-card-link,
+.fit-note strong,
+.fit-note p,
+.main-contact-card p { color: inherit; }
+.fit-note p,
+.main-contact-card p { color: rgba(242, 239, 233, .82); }
+.service-grid .text-link,
+.topic-grid a,
+.related-links a,
+.summary,
+.author-entity h2,
+.article-row strong,
+.breadcrumb a,
+.account-links a,
+.media-qr-card strong,
+.qr-card strong,
+.publication-list article strong,
+.publication-link-list strong,
+.presence-points span,
+.scenario-list span,
+.experience-grid span,
+.method-steps span,
+dt, .contact-label { color: var(--gold); }
+.service-grid p,
+.experience-grid p,
+.fit-list p,
+.method-steps p,
+.tool-links span,
+.article-row span:last-child,
+.breadcrumb,
+.article-byline,
+.publication-note,
+.account-links span,
+figcaption,
+.media-portrait figcaption,
+.article-source { color: var(--muted); }
+.experience-section, .enterprise-section, .method-section,
+.presence-section, .credentials-section, .media-hero,
+.contact-section { background: transparent; }
+.experience-grid, .experience-grid article { background: var(--surface); border-color: var(--line); }
+.publication-label, .article-meta, .publication-link-list span { color: var(--green); }
+
+/* --- 按钮 --- */
+.button {
+  border-radius: 999px;
+  font-weight: 650;
+  transition: transform .2s var(--ease-out), box-shadow .2s var(--ease-out), border-color .2s var(--ease-out);
+}
+.button:hover { transform: translateY(-2px); }
+.button.primary {
+  color: #0e1116;
+  background: linear-gradient(135deg, #e8ce92, #b8893f);
+  border-color: #e8ce92;
+  box-shadow: 0 10px 24px rgba(201, 169, 106, .18);
+}
+.button.secondary {
+  color: var(--gold);
+  background: rgba(201, 169, 106, .06);
+  border-color: rgba(201, 169, 106, .5);
+}
+.button.secondary:hover { background: rgba(201, 169, 106, .12); }
+
+/* --- 链接列表 / 工具页 --- */
+.tool-links { border-top-color: var(--line); }
+.tool-links a { border-bottom-color: var(--line); }
+.tool-links a:hover strong { color: var(--gold-bright); }
+.article-row, .credential-list div { border-color: var(--line); }
+.publication-link-list { background: var(--line); border-color: var(--line); }
+.publication-link-list a { background: var(--surface); }
+.publication-link-list a:hover { background: var(--surface-2); }
+.publication-card figure { background: var(--surface-2); border-color: var(--line); }
+
+/* --- 媒体二维码卡 --- */
+.media-qr-card { color: var(--ink); background: var(--surface); border-color: var(--line); }
+.media-qr-card img { background: #fff; border-radius: 8px; }
+.qr-card img { background: #fff; border-radius: 8px; }
+.account-links { background: var(--surface); border-color: var(--line); }
+.contact-label { color: var(--gold); }
+.main-contact-card .contact-label { color: #e8c990; }
+.phone-link { color: #f2efe9; }
+
+/* --- 页脚 --- */
+footer {
+  color: var(--muted);
+  background: #0a0d11;
+  border-top: 1px solid var(--line);
+}
+footer a { color: var(--gold); }
+footer strong { color: var(--gold-bright); }
+
+/* --- UDRP 对比表 --- */
+.compare-table { color: var(--ink); background: var(--surface); border-color: var(--line); }
+.compare-table th, .compare-table td { border-bottom-color: var(--line); }
+.compare-table thead th {
+  color: #0e1116;
+  background: linear-gradient(135deg, #e8ce92, #b8893f);
+}
+.compare-table tbody th { color: var(--gold); }
+.compare-table tbody tr:nth-child(even) { background: var(--surface-2); }
+.compare-table caption { color: var(--muted); }
+.prose code, .article-lead code, .hero-copy code, .topic-grid code {
+  color: var(--gold-bright);
+  background: var(--surface-2);
+  border-color: var(--line);
+}
+
+/* --- 正文阅读区：浅底深字，保护长文可读性 --- */
+.article-page,
+.prose,
+.source-note,
+.author-entity .prose > p:first-of-type {
+  --red: #8d1a26;
+  --red-dark: #64111a;
+  --ink: #202124;
+  --muted: #646464;
+  --line: #ded8d1;
+  --paper: #ffffff;
+  --warm: #f6f3ed;
+  --green: #2f5f54;
+  --gold: #a97933;
+  --gold-bright: #64111a;
+  color: #202124;
+}
+.article-page {
+  background: #ffffff;
+  border: 1px solid rgba(201, 169, 106, .16);
+  border-radius: var(--radius);
+  padding: clamp(24px, 4vw, 52px);
+  box-shadow: var(--shadow-dark);
+}
+.article-page .prose p,
+.prose p,
+.presence-copy p,
+.publication-intro p { color: #3c3c3c; }
+.article-lead,
+.source-note,
+.author-entity .prose > p:first-of-type {
+  color: #202124;
+  background: var(--warm);
+  border-color: var(--line);
+}
+.article-lead { border-left-color: var(--red-dark); }
+.source-note { border: 1px solid var(--line); }
+.article-page .breadcrumb,
+.article-page .breadcrumb a,
+.article-byline,
+.article-source,
+.article-source a { color: #646464; }
+.article-page h1, .article-page h2, .article-page h3,
+.prose h2, .prose h3 { color: var(--red-dark); }
+.article-source a { color: var(--red-dark); }
+.article-meta { color: var(--green); }
+.author-entity { background: transparent; border: 0; border-top: 1px solid var(--line); }
+.author-entity .prose > p:first-of-type {
+  background: var(--warm);
+  border-left: 4px solid var(--red-dark);
+}
+.related-links a { color: var(--gold); }
+
+/* --- 减小动态效果 --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .button:hover { transform: none; }
+}
+
+/* --- 移动端微调 --- */
+@media (max-width: 620px) {
+  .article-page { padding: 22px 18px; border-radius: 10px; }
+  .button { min-height: 46px; }
+}

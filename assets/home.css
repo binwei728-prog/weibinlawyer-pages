@@ -157,3 +157,26 @@
   .hm-enter { opacity:1!important }
   .hm-wordmark.ready canvas { opacity:1 }
 }
+
+/* ===== 全站深色科技风协调层（2026-11-28） ===== */
+.home-page .hero.hero-motion .home-profile{
+  background:var(--surface)!important;border:1px solid rgba(201,169,106,.28)!important;
+  border-radius:16px!important;box-shadow:0 16px 40px rgba(0,0,0,.32)!important;overflow:hidden!important }
+.home-page .hero.hero-motion .home-profile img{
+  aspect-ratio:4/5!important;object-position:center 26%!important }
+.home-page .hero.hero-motion .home-profile strong{color:var(--gold-bright)!important}
+.home-page .hero.hero-motion .home-profile span{color:var(--muted)!important}
+/* 首屏到下方栏目的深色过渡 */
+.home-page #services{background:var(--surface-2)!important}
+.home-page .hero-motion + .section{border-top:1px solid rgba(201,169,106,.14)}
+@media(max-width:620px){
+  .home-page .hero.hero-motion .home-profile{display:grid!important;grid-template-columns:84px minmax(0,1fr)!important;align-items:center!important}
+  .home-page .hero.hero-motion .home-profile img{width:84px!important;height:108px!important;aspect-ratio:auto!important}
+}
+
+/* 手机固定联系栏：深色科技风协调 */
+@media(max-width:620px){
+  .mobile-contact { background:rgba(14,17,22,.97)!important; border-top-color:rgba(201,169,106,.25)!important; box-shadow:0 -3px 18px rgba(0,0,0,.35)!important; }
+  .mobile-contact a { color:var(--gold)!important; border-color:rgba(201,169,106,.55)!important; }
+  .mobile-contact a:first-child { background:linear-gradient(135deg,#e8ce92,#b8893f)!important; color:#0e1116!important; border-color:#e8ce92!important; }
+}
